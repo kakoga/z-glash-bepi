@@ -1,8 +1,8 @@
   <!-- Header -->
 	{{if {simple_blog_article.last().image} }}
-	<header style="background-image:url('{{simple_blog_article.last().image.getImage()}}')">      
+	<header style="background-image:url('{{simple_blog_article.last().image.getImage()}}')">
 	{{else}}
-	<header style="background-image:url('{{page.image1.getImage()}}')">      
+	<header style="background-image:url('{{page.image1.getImage()}}')">
 	{{end-if}}
         <div class="container">
             <div class="intro-text">
@@ -24,17 +24,17 @@
 							{{clippings.global_hashtag}}
 						</a>
 					</h4>
-					{{social-spotlight.first().embed_code}}
+					<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ee73ec3674b45da5b3b5038987d70f66.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 					<br>
                 </div>
             </div>
             <div class="row">
 				{{each social_feed as social limit 3 order by z.sort}}
-				
+
 				{{include social-loop}}
-				
+
 				{{end-each}}
-				
+
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -76,7 +76,7 @@
                             </div>
                         </li>
 						{{end-each}}
-                    
+
                         <li class="timeline-inverted">
                             <div class="timeline-image">
 								<h4>{{page.button_text_3}}</h4>
@@ -86,7 +86,7 @@
 											<i class="fa fa-facebook"></i>
 										</a>
 									</li>
-									<li>									
+									<li>
 										<a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
 											<i class="fa fa-twitter"></i>
 										</a>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
 				{{end-each}}
-            </div>            
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
 					<a href="{{influencers_page.first().getUrl()}}" class="page-scroll btn btn-xl">{{page.button_text_4}}</a>
@@ -138,6 +138,3 @@
             </div>
         </div>
     </section>
-
-   
-   
