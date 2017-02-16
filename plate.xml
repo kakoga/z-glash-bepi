@@ -228,7 +228,7 @@
         </items>
       </templateset>
 <!-- 3. Contact Us -->
-      <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
+      <!-- <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
         <fields>
           <text name="title" name_friendly="Title" />
           <text name="location_name" name_friendly="Location Name" />
@@ -256,7 +256,7 @@
               <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
           </item>
         </items>
-      </templateset>
+      </templateset> -->
       <!-- <dataset name="hours_of_operation" name_friendly="Hours of Operation (leave blank if closed)" parent_item="contact-us">
              <fields>
                  <text name="day_of_week" name_friendly="Day of Week" list="1" />
