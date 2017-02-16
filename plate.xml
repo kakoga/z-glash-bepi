@@ -18,7 +18,7 @@
       <googlefont family="Raleway" />
     </head>
     <clippings>
-      <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Garnet Lash Website]]></text>
+      <!-- <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Garnet Lash Website]]></text>
       <images name="logo" name_friendly="Site Logo" limit="1"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Garnet-Logo.png]]></images>
       <text name="footer_text" name_friendly="Footer Text"><![CDATA[Garnet Enterprises]]></text>
       <images name="form_background_image" name_friendly="Form Background Image"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/No-More-Falsies.jpg]]></images>
@@ -28,7 +28,7 @@
       <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Interested in Learning More?]]></text>
       <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Request more information and I'll be sure to be in contact with you.]]></textarea>
       <text name="form_webhook" name_friendly="Form Webhook (optional)" />
-      <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Lash Me!]]></text>
+      <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Lash Me!]]></text> -->
       <!-- book now fields Chloe added: btn, link, icon -->
       <!-- <color name="book_now_button" name_friendly="Book Now Button (color)"><![CDATA[#ffffff]]></color>
       <link name="book_now_link" name_friendly="Book Now Link" />
