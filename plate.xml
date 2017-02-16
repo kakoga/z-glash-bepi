@@ -64,7 +64,7 @@
               </item>
           </items>
       </dataset>
-      <dataset name="footer_links" name_friendly="Footer Links">
+      <!-- <dataset name="footer_links" name_friendly="Footer Links">
         <fields>
           <text name="title" name_friendly="Link Title" />
           <text name="url" name_friendly="Footer Link" limit="1" />
@@ -75,7 +75,7 @@
             <url><![CDATA[]]></url>
           </item>
         </items>
-      </dataset>
+      </dataset> -->
       <!-- <dataset name="featured_in" name_friendly="Services I Offer">
           <fields>
               <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
