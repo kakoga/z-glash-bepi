@@ -311,7 +311,7 @@
            </dataset>
 <!-- 4. Blog --><!-- Randy will add this in as an option when the bepi is loaded -->
 <!-- 5. Services -->
-      <templateset name="product_page" name_friendly="Services" view="product_page">
+      <!-- <templateset name="product_page" name_friendly="Services" view="product_page">
           <fields>
               <text name="title" name_friendly="Page Title" required="1" />
               <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
@@ -322,7 +322,7 @@
                   <description><![CDATA[]]></description>
               </item>
           </items>
-      </templateset>
+      </templateset> -->
       <!-- 5.1 Services: services(products) pageset -->
       <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
           <fields>
