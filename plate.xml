@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+    <plate>
+
+    <head>
+      <doctype>html5</doctype>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="//code.jquery.com/jquery-1.12.4.min.js" />
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js" />
+      <googlefont family="Montserrat" />
+      <googlefont family="Droid Serif" />
+      <googlefont family="Roboto Slab" />
+      <googlefont family="Aladin" />
+      <googlefont family="Elsie Swash Caps" />
+      <googlefont family="Raleway" />
+    </head>
+    <clippings>
+      <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Garnet Lash Website]]></text>
+      <images name="logo" name_friendly="Site Logo" limit="1"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Garnet-Logo.png]]></images>
+      <text name="footer_text" name_friendly="Footer Text"><![CDATA[Garnet Enterprises]]></text>
+      <images name="form_background_image" name_friendly="Form Background Image"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/No-More-Falsies.jpg]]></images>
+      <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#garnetlashstudios]]></text>
+      <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Service]]></text>
+      <text name="featured_title" name_friendly="Feature title"><![CDATA[Services I Offer]]></text>
+      <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Interested in Learning More?]]></text>
+      <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Request more information and I'll be sure to be in contact with you.]]></textarea>
+      <text name="form_webhook" name_friendly="Form Webhook (optional)" />
+      <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Lash Me!]]></text>
+      <color name="book_now_button" name_friendly="Book Now Button"><![CDATA[#ffffff]]></color>
+      <link name="book_now_link" name_friendly="Book Now Link" />
+      <fontawesome name="fontawesome_icon" name_friendly="My Fontawesome Icon (get icon from http://fontawesome.io/icons/)"><![CDATA[fa-calendar-check-o]]></fontawesome>
+    </clippings>
+    <ingredients>
+      <templateset name="social-spotlight" name_friendly="Social Spotlight Page" view="social-spotlight">
+        <fields>
+          <text name="title" name_friendly="Page Title (h1)" required="1" />
+          <wysiwyg_advanced name="content" name_friendly="Page Content" />
+          <textarea name="embed_code" name_friendly="Embed Code" />
+        </fields>
+        <items>
+          <item link_title="Social Page" path_part="social-spotlight">
+            <title><![CDATA[Social Media Page]]></title>
+            <content><![CDATA[<p>Highlight customers using your services who share about it on social media here with an instagram feed! Make an introduction here and embed your feed below.</p>]]></content>
+            <embed_code><![CDATA[<iframe src="http://instaembedder.com/gallery-v2.php?width=200&cols=7&rows=1&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=transparent&cid=2805&" frameborder="0" width="100%" height="255" ></iframe>]]></embed_code>
+          </item>
+        </items>
+      </templateset>
+      <templateset name="generic-page" name_friendly="Generic Page" view="generic-page">
+        <fields>
+          <text name="title" name_friendly="Page Title (h1)" required="1" />
+          <wysiwyg_advanced name="content" name_friendly="Page Content" />
+        </fields>
+        <items>
+          <item link_title="Privacy Policy" path_part="privacy-policy">
+              <title><![CDATA[Privacy Policy]]></title>
+              <content><![CDATA[<p>See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a></p>]]></content>
+          </item>
+          <item link_title="Terms of Use" path_part="terms-of-use">
+              <title><![CDATA[Terms of Use]]></title>
+              <content><![CDATA[<p>See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a></p>]]></content>
+          </item>
+          <item link_title="Thank You" path_part="thank-you">
+              <title><![CDATA[Thank You]]></title>
+              <content><![CDATA[<p>We will be sending you awesome stories once a month.</p>]]></content>
+          </item>
+          <item link_title="BOOK NOW" path_part="book-now">
+              <title><![CDATA[]]></title>
+              <content><![CDATA[]]></content>
+          </item>
+          </items>
+      </templateset>
+      <templateset name="influencers_page" name_friendly="Influencers Page" view="influencers_page">
+          <fields>
+              <text name="title" name_friendly="Page Title" required="1" />
+              <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
+              <images name="image" name_friendly="Optional Customers Image" limit="1" />
+          </fields>
+          <items>
+              <item link_title="Testimonials" path_part="testimonials">
+                  <title><![CDATA[Testimonials]]></title>
+                  <description><![CDATA[<p>Having served the San Diego area for a number of years, I've seen hundreds of clients. Here are a few of their stories.</p>]]></description>
+                  <image><![CDATA[]]></image>
+              </item>
+          </items>
+      </templateset>
+      <dataset name="featured_in" name_friendly="Services I Offer">
+          <fields>
+              <text name="name" name_friendly="Name of Feature Logo" required="1" />
+              <images name="image" name_friendly="Logo" limit="1" />
+              <text name="url" name_friendly="Link (optional)" limit="1" />
+          </fields>
+          <items>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="Eyelash Extensions" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="Eyelash Extensions" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="Microblading" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="Waxing" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="Facials" path_part="">
+                  <name><![CDATA[]]></name>
+                  <image><![CDATA[]]></image>
+                  <url><![CDATA[]]></url>
+              </item>
+          </items>
+      </dataset>
+
+      <dataset name="social_links" name_friendly="Social Links">
+          <fields>
+              <text name="name" name_friendly="Social Media Name" required="1" />
+              <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
+              <text name="url" name_friendly="Social Media Link" limit="1" />
+          </fields>
+          <items>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                  <url><![CDATA[]]></url>
+              </item>
+              <item link_title="" path_part="">
+                  <name><![CDATA[]]></name>
+                  <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                  <url><![CDATA[]]></url>
+              </item>
+          </items>
+      </dataset>
+      <templateset name="product_page" name_friendly="Product Page" view="product_page">
+          <fields>
+              <text name="title" name_friendly="Page Title" required="1" />
+              <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
+          </fields>
+          <items>
+              <item link_title="Services" path_part="Services">
+                  <title><![CDATA[]]></title>
+                  <description><![CDATA[]]></description>
+              </item>
+          </items>
+      </templateset>
+      <templateset name="homepage" name_friendly="Homepage" view="homepage">
+          <fields>
+              <text name="hero_title" name_friendly="Hero Text" required="1" />
+              <text name="hero_subtitle" name_friendly="Hero Subtitle" required="1" />
+              <text name="hero_button_text" name_friendly="Hero Button Text" required="1" />
+              <images name="hero_image" name_friendly="Hero Image (Default image if feature article has no image)" limit="1" />
+              <text name="social_section_title" name_friendly="Social Section Title" required="1" />
+              <text name="social_section_button_text" name_friendly="Social Section Button Text" required="1" />
+              <text name="timeline_title" name_friendly="Timeline Title" required="1" />
+              <text name="timeline_subtitle" name_friendly="Timeline Subtitle" required="1" />
+              <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
+              <text name="title4" name_friendly="Title (Section 4)" required="1" />
+              <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
+              <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
+          </fields>
+          <items>
+              <item link_title="Home" path_part="zesty_home">
+                  <hero_title><![CDATA[Intro Title]]></hero_title>
+                  <hero_subtitle><![CDATA[Large Title]]></hero_subtitle>
+                  <hero_button_text><![CDATA[Book Now]]></hero_button_text>
+                  <hero_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-2.jpeg]]></hero_image>
+                  <social_section_title><![CDATA[Social Feed Title]]></social_section_title>
+                  <social_section_button_text><![CDATA[See More Posts]]></social_section_button_text>
+                  <timeline_title><![CDATA[Who Are Lashes For?]]></timeline_title>
+                  <timeline_subtitle><![CDATA[Everyone, really! Check these out to see where you fit in.]]></timeline_subtitle>
+                  <button_text_3><![CDATA[Share This!]]></button_text_3>
+                  <title4><![CDATA[Lashes Change Lives!]]></title4>
+                  <sub_title4><![CDATA[We could tell you, but we'll let our customers do the talking. ]]></sub_title4>
+                  <button_text_4><![CDATA[Read Their Stories]]></button_text_4>
+              </item>
+          </items>
+      </templateset>
+      <dataset name="homepage_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
+          <fields>
+              <text name="bubble_title" name_friendly="Name of Feature Logo" required="1" />
+              <text name="bubble_subtitle" name_friendly="Name of Feature Logo" required="1" />
+              <images name="bubble_image" name_friendly="Logo" limit="1" />
+              <textarea name="bubble_blurb" name_friendly="Short Blurb" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+          </fields>
+          <items>
+              <item link_title="" path_part="">
+                  <bubble_title><![CDATA[The On-The-Go Momma]]></bubble_title>
+                  <bubble_subtitle><![CDATA[]]></bubble_subtitle>
+                  <bubble_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/On-The-Go-Mommy.jpg]]></bubble_image>
+                  <bubble_blurb><![CDATA[The on-the-go mom should most definitely treat herself to eyelash extensions! Make mornings easier and always look and feel beautiful!]]></bubble_blurb>
+                  <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item link_title="" path_part="">
+                  <bubble_title><![CDATA[The Always On Entrepreneur]]></bubble_title>
+                  <bubble_subtitle><![CDATA[]]></bubble_subtitle>
+                  <bubble_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Always-On-Entrepreneur.jpg]]></bubble_image>
+                  <bubble_blurb><![CDATA[Always running around? Rushing from meeting to meeting? You go, superstar. Keep your lashes as amazing as you 24/7!]]></bubble_blurb>
+                  <sort_order><![CDATA[2]]></sort_order>
+              </item>
+              <item link_title="" path_part="">
+                  <bubble_title><![CDATA[The Pamperer]]></bubble_title>
+                  <bubble_subtitle><![CDATA[]]></bubble_subtitle>
+                  <bubble_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/The-Pamperer.jpg]]></bubble_image>
+                  <bubble_blurb><![CDATA[Treat yo'self. Why not?]]></bubble_blurb>
+                  <sort_order><![CDATA[3]]></sort_order>
+              </item>
+              <item link_title="" path_part="">
+                  <bubble_title><![CDATA[The Squad]]></bubble_title>
+                  <bubble_subtitle><![CDATA[]]></bubble_subtitle>
+                  <bubble_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/The-Squad.jpg]]></bubble_image>
+                  <bubble_blurb><![CDATA[Got a bridal party together? Want to do something out of the ordinary to celebrate someones birthday? #SquadUp and get some lashes on, ladies!]]></bubble_blurb>
+                  <sort_order><![CDATA[4]]></sort_order>
+              </item>
+          </items>
+      </dataset>
+      <pageset name="products" name_friendly="Individual Services" view="products">
+          <fields>
+              <text name="name" name_friendly="Name" />
+              <wysiwyg_basic name="description" name_friendly="Description" />
+              <wysiwyg_basic name="specs" name_friendly="Specs (optional)" />
+              <currency name="price" name_friendly="Price" />
+              <images name="main_image" name_friendly="Main Image" />
+              <images name="additional_images" name_friendly="Additional Images" />
+              <link name="where_to_buy_link" name_friendly="Book Now" />
+          </fields>
+          <items>
+              <item link_title="Product Example" path_part="product-example">
+                  <name><![CDATA[]]></name>
+                  <description><![CDATA[]]></description>
+                  <specs><![CDATA[]]></specs>
+                  <price><![CDATA[]]></price>
+                  <main_image><![CDATA[]]></main_image>
+                  <additional_images><![CDATA[]]></additional_images>
+                  <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+              </item>
+              <item link_title="Content" path_part="content">
+                  <name><![CDATA[]]></name>
+                  <description><![CDATA[]]></description>
+                  <specs><![CDATA[]]></specs>
+                  <price><![CDATA[]]></price>
+                  <main_image><![CDATA[]]></main_image>
+                  <additional_images><![CDATA[]]></additional_images>
+                  <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+              </item>
+              <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions">
+                  <name><![CDATA[]]></name>
+                  <description><![CDATA[]]></description>
+                  <specs><![CDATA[]]></specs>
+                  <price><![CDATA[]]></price>
+                  <main_image><![CDATA[]]></main_image>
+                  <additional_images><![CDATA[]]></additional_images>
+                  <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+              </item>
+          </items>
+      </pageset>
+      <pageset name="people" name_friendly="Individual Influencers" view="people">
+          <fields>
+              <text name="name" name_friendly="Name" required="1" />
+              <text name="title" name_friendly="Title" />
+              <images name="image" name_friendly="Image" limit="1" />
+              <wysiwyg_advanced name="description" name_friendly="Description" />
+              <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
+              <text name="location" name_friendly="Location" />
+              <sort name="sort" name_friendly="Sort Order" />
+              <one_to_one name="favorite_product" name_friendly="Favorite Product" />
+          </fields>
+          <items>
+              <item link_title="John Lennon" path_part="john-lennon">
+                  <name><![CDATA[]]></name>
+                  <title><![CDATA[]]></title>
+                  <image><![CDATA[]]></image>
+                  <description><![CDATA[]]></description>
+                  <quote><![CDATA[]]></quote>
+                  <location><![CDATA[]]></location>
+                  <sort><![CDATA[]]></sort>
+                  <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+              <item link_title="Rachelle Duckworth, Master Lash Artist" path_part="rachelle-duckworth--master-lash-artist">
+                  <name><![CDATA[]]></name>
+                  <title><![CDATA[]]></title>
+                  <image><![CDATA[]]></image>
+                  <description><![CDATA[]]></description>
+                  <quote><![CDATA[]]></quote>
+                  <location><![CDATA[]]></location>
+                  <sort><![CDATA[]]></sort>
+                  <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+              <item link_title="Rachel Doty, Expert Lash Artist" path_part="rachel-doty--expert-lash-artist">
+                  <name><![CDATA[]]></name>
+                  <title><![CDATA[]]></title>
+                  <image><![CDATA[]]></image>
+                  <description><![CDATA[]]></description>
+                  <quote><![CDATA[]]></quote>
+                  <location><![CDATA[]]></location>
+                  <sort><![CDATA[]]></sort>
+                  <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+              <item link_title="Tifany, Expert Lash Artist" path_part="tifany--expert-lash-artist">
+                  <name><![CDATA[]]></name>
+                  <title><![CDATA[]]></title>
+                  <image><![CDATA[]]></image>
+                  <description><![CDATA[]]></description>
+                  <quote><![CDATA[]]></quote>
+                  <location><![CDATA[]]></location>
+                  <sort><![CDATA[]]></sort>
+                  <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+          </items>
+      </pageset>
+      <templateset name="book_now" name_friendly="Book Now" view="book_now">
+          <fields>
+              <text name="title" name_friendly="Title" />
+              <images name="image" name_friendly="Image" />
+              <textarea name="embed" name_friendly="Embed" />
+              <wysiwyg_advanced name="content" name_friendly="Content" />
+              <yes_no name="book_now_button" name_friendly="Book Now Button" />
+          </fields>
+          <items>
+              <item link_title="BOOK NOW" path_part="book-now-1">
+                  <title><![CDATA[]]></title>
+                  <image><![CDATA[]]></image>
+                  <embed><![CDATA[]]></embed>
+                  <content><![CDATA[]]></content>
+                  <book_now_button><![CDATA[]]></book_now_button>
+              </item>
+          </items>
+      </templateset>
+      <dataset name="footer_links" name_friendly="Footer Links">
+        <fields>
+          <fields/>
+          <items>
+            <item>
+            </item>
+          </items>
+      </dataset>
+    </ingredients>
+</plate>
