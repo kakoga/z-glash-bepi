@@ -363,7 +363,7 @@
         </items>
       </templateset>
       <!-- 5.2 Services: testimonials pageset -->
-      <!-- <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials"> -->
+      <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials">
         <fields>
           <text name="name" name_friendly="Name" required="1" list="1"/>
           <text name="title" name_friendly="Instagram Handle" list="1"/>
@@ -413,7 +413,7 @@
         </items>
       </pageset>
 <!-- 6. Social Media  -->
-      <!-- <templateset name="social-media" name_friendly="Social Media Page" view="social-media"> -->
+      <templateset name="social-media" name_friendly="Social Media Page" view="social-media">
         <fields>
           <text name="title" name_friendly="Page Title" required="1" />
           <wysiwyg_advanced name="content" name_friendly="Page Content" />
@@ -429,7 +429,7 @@
       </templateset>
 <!-- 7. About -->
       <!-- <templateset name="about" name_friendly="About" view="about"> -->
-        <fields>
+        <!-- <fields>
           <text name="title" name_friendly="Title" />
           <images name="image" name_friendly="Image" />
           <wysiwyg_advanced name="top_content" name_friendly="Top Content" />
@@ -446,6 +446,6 @@
               </content>
           </item>
         </items>
-      </templateset>
+      </templateset> -->
     </ingredients>
   </plate>
