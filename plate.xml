@@ -209,7 +209,7 @@
       </templateset>
 <!-- 2. Book Now -->
       <!-- eventually will have embedded calendar via Acuity scheduling software. may need to be via webhook. -->
-      <templateset name="book_now" name_friendly="Book Now" view="book_now">
+      <!-- <templateset name="book_now" name_friendly="Book Now" view="book_now">
         <fields>
           <text name="title" name_friendly="Title" />
           <images name="image" name_friendly="Image" />
@@ -226,7 +226,7 @@
               <book_now_button><![CDATA[Book Now]]></book_now_button>
           </item>
         </items>
-      </templateset>
+      </templateset> -->
 <!-- 3. Contact Us -->
       <!-- <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
         <fields>
