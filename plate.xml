@@ -76,7 +76,7 @@
           </item>
         </items>
       </dataset>
-      <dataset name="featured_in" name_friendly="Services I Offer">
+      <!-- <dataset name="featured_in" name_friendly="Services I Offer">
           <fields>
               <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
               <images name="image" name_friendly="Logo" limit="1" list="1"/>
@@ -109,7 +109,7 @@
                   <sort_order><![CDATA[4]]></sort_order>
               </item>
           </items>
-      </dataset>
+      </dataset> -->
 <!-- 1. Homepage -->
       <templateset name="homepage" name_friendly="Homepage" view="homepage">
           <fields>
