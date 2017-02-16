@@ -30,9 +30,9 @@
       <text name="form_webhook" name_friendly="Form Webhook (optional)" />
       <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Lash Me!]]></text>
       <!-- book now fields Chloe added: btn, link, icon -->
-      <color name="book_now_button" name_friendly="Book Now Button (color)"><![CDATA[#ffffff]]></color>
+      <!-- <color name="book_now_button" name_friendly="Book Now Button (color)"><![CDATA[#ffffff]]></color>
       <link name="book_now_link" name_friendly="Book Now Link" />
-      <fontawesome name="fontawesome_icon" name_friendly="My Fontawesome Icon (get icon from http://fontawesome.io/icons/)"><![CDATA[fa-calendar-check-o]]></fontawesome>
+      <fontawesome name="fontawesome_icon" name_friendly="My Fontawesome Icon (get icon from http://fontawesome.io/icons/)"><![CDATA[fa-calendar-check-o]]></fontawesome> -->
     </clippings>
     <ingredients>
       <!-- <dataset name="social_links" name_friendly="Social Links">
