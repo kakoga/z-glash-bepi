@@ -413,7 +413,7 @@
         </items>
       </pageset>
 <!-- 6. Social Media  -->
-      <templateset name="social-media" name_friendly="Social Media Page" view="social-media">
+      <!-- <templateset name="social-media" name_friendly="Social Media Page" view="social-media"> -->
         <fields>
           <text name="title" name_friendly="Page Title" required="1" />
           <wysiwyg_advanced name="content" name_friendly="Page Content" />
