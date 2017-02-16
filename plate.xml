@@ -143,7 +143,7 @@
               </item>
           </items>
       </templateset>
-      <dataset name="homepage_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
+      <!-- <dataset name="homepage_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
           <fields>
               <text name="bubble_title" name_friendly="Name of Feature Logo" required="1" />
               <text name="bubble_subtitle" name_friendly="Name of Feature Logo" required="1" />
@@ -181,7 +181,7 @@
                   <sort_order><![CDATA[4]]></sort_order>
               </item>
           </items>
-      </dataset>
+      </dataset> -->
 <!-- Generic page -->
       <!-- <templateset name="generic-page" name_friendly="Generic Page" view="generic-page">
         <fields>
