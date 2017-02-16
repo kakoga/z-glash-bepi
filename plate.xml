@@ -348,7 +348,7 @@
           </items>
       </pageset> -->
       <!-- 5.2 Services: testimonials -->
-      <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="services">
+      <!-- <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="services">
         <fields>
           <text name="title" name_friendly="Page Title" required="1" />
           <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
@@ -361,7 +361,7 @@
             <image><![CDATA[]]></image>
           </item>
         </items>
-      </templateset>
+      </templateset> -->
       <!-- 5.2 Services: testimonials pageset -->
       <!-- <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials">
         <fields>
