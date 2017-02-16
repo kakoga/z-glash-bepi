@@ -363,7 +363,7 @@
         </items>
       </templateset>
       <!-- 5.2 Services: testimonials pageset -->
-      <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials">
+      <!-- <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials"> -->
         <fields>
           <text name="name" name_friendly="Name" required="1" list="1"/>
           <text name="title" name_friendly="Instagram Handle" list="1"/>
