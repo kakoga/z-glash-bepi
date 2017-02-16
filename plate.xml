@@ -428,7 +428,7 @@
         </items>
       </templateset>
 <!-- 7. About -->
-      <templateset name="about" name_friendly="About" view="about">
+      <!-- <templateset name="about" name_friendly="About" view="about"> -->
         <fields>
           <text name="title" name_friendly="Title" />
           <images name="image" name_friendly="Image" />
