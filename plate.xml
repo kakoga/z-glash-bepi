@@ -183,7 +183,7 @@
           </items>
       </dataset>
 <!-- Generic page -->
-      <templateset name="generic-page" name_friendly="Generic Page" view="generic-page">
+      <!-- <templateset name="generic-page" name_friendly="Generic Page" view="generic-page">
         <fields>
           <text name="title" name_friendly="Page Title (h1)" required="1" />
           <wysiwyg_advanced name="content" name_friendly="Page Content" />
@@ -206,7 +206,7 @@
               <content><![CDATA[]]></content>
           </item>
           </items>
-      </templateset>
+      </templateset> -->
 <!-- 2. Book Now -->
       <!-- eventually will have embedded calendar via Acuity scheduling software. may need to be via webhook. -->
       <!-- <templateset name="book_now" name_friendly="Book Now" view="book_now">
