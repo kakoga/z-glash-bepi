@@ -257,7 +257,7 @@
           </item>
         </items>
       </templateset>
-      <dataset name="hours_of_operation" name_friendly="Hours of Operation (leave blank if closed)" parent_item="contact-us">
+      <!-- <dataset name="hours_of_operation" name_friendly="Hours of Operation (leave blank if closed)" parent_item="contact-us">
              <fields>
                  <text name="day_of_week" name_friendly="Day of Week" list="1" />
                  <text name="open" name_friendly="Open" list="1" />
@@ -308,7 +308,7 @@
                  <sort_order><![CDATA[7]]></sort_order>
                </item>
              </items>
-           </dataset>
+           </dataset> -->
 <!-- 4. Blog --><!-- Randy will add this in as an option when the bepi is loaded -->
 <!-- 5. Services -->
       <!-- <templateset name="product_page" name_friendly="Services" view="product_page">
