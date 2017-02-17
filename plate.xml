@@ -91,7 +91,7 @@
               </items>
           </templateset>
           <!-- 5.1 Services: services(products) pageset -->
-          <pageset name="products" name_friendly="Products" view="products" parent_item="services">
+          <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
                   <text name="name" name_friendly="Name" list="1" />
                   <wysiwyg_basic name="description" name_friendly="Description" />
@@ -113,7 +113,7 @@
                       <sort_order><![CDATA[1]]></sort_order>
                   </item>
               </items>
-          </pageset>
+          </pageset> -->
 
           <templateset name="influencers_page" name_friendly="Influencers Page" view="influencers_page">
             <fields>
