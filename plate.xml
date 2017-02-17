@@ -91,29 +91,29 @@
               </items>
           </templateset>
           <!-- 5.1 Services: services(products) pageset -->
-          <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
+          <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
-                  <text name="name" name_friendly="Name" list="1" />
+                  <!-- <text name="name" name_friendly="Name" list="1" />
                   <wysiwyg_basic name="description" name_friendly="Description" />
                   <wysiwyg_basic name="specs" name_friendly="Specs (optional)" />
                   <currency name="price" name_friendly="Price" list="1" />
                   <images name="main_image" name_friendly="Main Image" list="1" />
                   <images name="additional_images" name_friendly="Additional Images" />
                   <link name="where_to_buy_link" name_friendly="Book Now" />
-                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" /> -->
               </fields>
                   <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions">
-                      <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
+                      <!-- <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
                       <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
                       <specs><![CDATA[]]></specs>
                       <price><![CDATA[380]]></price>
                       <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Lash-Collage-1.jpg]]></main_image>
                       <additional_images><![CDATA[]]></additional_images>
                       <where_to_buy_link><![CDATA[]]></where_to_buy_link>
-                      <sort_order><![CDATA[1]]></sort_order>
+                      <sort_order><![CDATA[1]]></sort_order> -->
                   </item>
               </items>
-          </pageset> -->
+          </pageset>
 
           <templateset name="influencers_page" name_friendly="Influencers Page" view="influencers_page">
             <fields>
