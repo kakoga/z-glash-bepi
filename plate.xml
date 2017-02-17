@@ -62,10 +62,10 @@
                       <sort><![CDATA[3]]></sort>
                   </item>
                   <item link_title="" path_part="">
-                      <name><![CDATA[]]></name>
-                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
-                      <url><![CDATA[]]></url>
-                      <sort><![CDATA[]]></sort>
+                      <name><![CDATA[Twitter]]></name>
+                      <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
+                      <url><![CDATA[https://www.twitter.com]]></url>
+                      <sort><![CDATA[4]]></sort>
                   </item>
               </items>
           </dataset>
