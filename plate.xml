@@ -99,9 +99,7 @@
               </items>
           </dataset>
           <dataset name="footer_links" name_friendly="Footer Links">
-
               <fields/>
-              
           </dataset>
           <!-- 1. Homepage -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
