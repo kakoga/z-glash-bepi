@@ -91,7 +91,7 @@
               </items>
           </templateset>
           <!-- 5.1 Services: services(products) pageset -->
-          <pageset name="products" name_friendly="Products" view="products">
+          <pageset name="products" name_friendly="Products" view="products" parent_item="services">
           </pageset>
           <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
