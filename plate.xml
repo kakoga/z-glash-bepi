@@ -50,10 +50,10 @@
                       <sort><![CDATA[1]]></sort>
                   </item>
                   <item link_title="" path_part="">
-                      <name><![CDATA[]]></name>
-                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
-                      <url><![CDATA[]]></url>
-                      <sort><![CDATA[]]></sort>
+                      <name><![CDATA[Pinterest]]></name>
+                      <font_awesome_icon><![CDATA[pinterest]]></font_awesome_icon>
+                      <url><![CDATA[https://www.pinterest.com]]></url>
+                      <sort><![CDATA[2]]></sort>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
