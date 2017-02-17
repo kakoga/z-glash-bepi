@@ -118,7 +118,7 @@
               <one_to_one name="favorite_product" name_friendly="Favorite Product" />
             </fields>
             <items>
-              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist">
+              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="services">
                 <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
                 <title><![CDATA[@rduckworth]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
@@ -133,7 +133,7 @@
                 <sort><![CDATA[1]]></sort>
                 <favorite_product><![CDATA[]]></favorite_product>
               </item>
-              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist">
+              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="services">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
                 <title><![CDATA[@racheydoty]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachel-Doty.jpg]]></image>
@@ -143,7 +143,7 @@
                 <sort><![CDATA[2]]></sort>
                 <favorite_product><![CDATA[]]></favorite_product>
               </item>
-              <item link_title="Tifany" path_part="tifany-expert-lash-artist">
+              <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="services">
                 <name><![CDATA[Tifany, Expert Lash Artist]]></name>
                 <title><![CDATA[@s3ren3]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Tifany.jpg]]></image>
@@ -168,7 +168,7 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
-                <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions">
+                <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions" parent="services">
                     <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
                     <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
                     <specs><![CDATA[]]></specs>
