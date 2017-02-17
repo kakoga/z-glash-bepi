@@ -437,10 +437,21 @@
               <item link_title="About" path_part="about">
                   <title><![CDATA[About Me]]></title>
                   <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
-                  <content>
+                  <top_content>
                     <![CDATA[<p>The About page is the section of a website where people go to find out about the website   they&rsquo;re on.</p>
                     <p>Readers will visit this section for many reasons and with various questions they want answered, but your objective is the same: to inform them why they are on the site or why they should be on the site.</p>]]>
-                  </content>
+                  </top_content>
+                  <blockquote><![CDATA[Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.]]></blockquote>
+                  <bottom_content><![CDATA[<h3>Provide the Basics at the Top as an Overview</h3>
+                  <p>Your About page should answer the <a href="http://en.wikipedia.org/wiki/Five_Ws">Five Ws</a>:</p>
+                  <ul>
+                  <li><strong>Who</strong> are you?</li>
+                  <li><strong>What</strong> do you do?</li>
+                  <li><strong>When</strong> did you start doing what you&rsquo;re doing?</li>
+                  <li><strong>Where</strong> are you?</li>
+                  <li><strong>How</strong> are you accomplishing what you claim to do?</li>
+                  </ul>
+                  <p><a href="http://sixrevisions.com/content-strategy/about-page-guidelines/">Read More about Writing a great About Page</a></p>]]></bottom_content>
               </item>
             </items>
           </templateset>
