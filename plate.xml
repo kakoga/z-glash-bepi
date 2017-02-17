@@ -319,14 +319,14 @@
               </items>
           </templateset>
           <!-- 5.1 Services: testimonials -->
-          <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="services">
+          <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="about">
             <fields>
               <text name="title" name_friendly="Page Title" required="1" />
               <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
               <images name="image" name_friendly="Optional Customers Image" limit="1" />
             </fields>
             <items>
-              <item link_title="Testimonials" path_part="testimonials" parent="services">
+              <item link_title="Testimonials" path_part="testimonials" parent="about">
                 <title><![CDATA[Testimonials]]></title>
                 <description><![CDATA[<p>Having served the San Diego area for a number of years, I've seen hundreds of clients. Here are a few of their stories.</p>]]></description>
                 <image><![CDATA[]]></image>
