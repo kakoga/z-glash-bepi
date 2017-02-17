@@ -1,6 +1,6 @@
 <div id="page-top" class="index">
 	{{include header}}
-	{{ if {page.path_part} = 'book-now' }}
+	{{ if {page.path_part} == 'book-now' }}
 	<div class="header-spacing" ></div>
 	{{ end-if }}
 	{{current_view}}
