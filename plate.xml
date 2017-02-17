@@ -92,18 +92,16 @@
           </templateset>
           <!-- 5.2 Services: testimonials -->
           <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="services">
-            <fields>
-              <!-- <text name="title" name_friendly="Page Title" required="1" />
-              <wysiwyg_advanced name="description" name_friendly="Page Description (optional)" />
-              <images name="image" name_friendly="Optional Customers Image" limit="1" /> -->
-            </fields>
-            <items>
-              <!-- <item link_title="Testimonials" path_part="testimonials">
-                <title><![CDATA[Testimonials]]></title>
-                <description><![CDATA[<p>Having served the San Diego area for a number of years, I've seen hundreds of clients. Here are a few of their stories.</p>]]></description>
-                <image><![CDATA[]]></image> -->
-              </item>
-            </items>
+              <fields>
+                  <text name="title" name_friendly="Page Title" required="1" />
+                  <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
+              </fields>
+              <items>
+                  <item link_title="testimonials" path_part="testimonials">
+                      <title><![CDATA[]]></title>
+                      <description><![CDATA[]]></description>
+                  </item>
+              </items>
           </templateset>
           <!-- 5.1 Services: services(products) pageset -->
           <pageset name="products" name_friendly="Products" view="products" parent_item="services">
