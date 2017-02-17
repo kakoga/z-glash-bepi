@@ -100,8 +100,18 @@
           </dataset>
           <dataset name="footer_links" name_friendly="Footer Links">
             <fields>
+              <text name="name" name_friendly="Name" required="1" list="1" />
+              <images name="image" name_friendly="Logo" limit="1" list="1"/>
+              <text name="url" name_friendly="Link (optional)" limit="1" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
               <fields/>
               <items>
+                <item>
+                  <name></name>
+                  <image></image>
+                  <url></url>
+                  <sort_order></sort_order>
+                </item>
               </items>
           </dataset>
           <!-- 1. Homepage -->
