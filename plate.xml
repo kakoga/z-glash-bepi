@@ -389,7 +389,7 @@
             </items>
           </templateset>
           <!-- 7.1 Services: testimonials -->
-          <templateset name="testimonials" name_friendly="Testimonials" view="testimonials">
+          <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" >
             <fields>
               <text name="title" name_friendly="Page Title" required="1" />
               <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
@@ -416,7 +416,7 @@
               <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
             </fields>
             <items>
-              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="testimonials">
+              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="about">
                 <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
                 <title><![CDATA[@rduckworth]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
@@ -431,7 +431,7 @@
                 <sort><![CDATA[1]]></sort>
                 <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
-              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="testimonials">
+              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="about">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
                 <title><![CDATA[@racheydoty]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachel-Doty.jpg]]></image>
@@ -441,7 +441,7 @@
                 <sort><![CDATA[2]]></sort>
                 <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
-              <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="testimonials">
+              <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="about">
                 <name><![CDATA[Tifany, Expert Lash Artist]]></name>
                 <title><![CDATA[@s3ren3]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Tifany.jpg]]></image>
