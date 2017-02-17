@@ -102,6 +102,7 @@
                 <link name="where_to_buy_link" name_friendly="Book Now" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
+            <items>
                 <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions">
                     <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
                     <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
@@ -113,6 +114,7 @@
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
             </items>
+
           </pageset>
           <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
@@ -125,6 +127,7 @@
                   <link name="where_to_buy_link" name_friendly="Book Now" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
                   <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions">
                       <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
                       <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
