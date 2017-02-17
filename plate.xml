@@ -180,74 +180,38 @@
                 </item>
             </items>
           </pageset>
-          <!-- 6. Social Media  -->
-          <templateset name="social-media" name_friendly="Social Media Page" view="social-media">
-            <fields>
-              <text name="title" name_friendly="Page Title" required="1" />
-              <wysiwyg_advanced name="content" name_friendly="Page Content" />
-              <textarea name="embed_code" name_friendly="Embed Link for Your Social Media Feed" />
-            </fields>
-            <items>
-              <item link_title="Social Media" path_part="social-media">
-                <title><![CDATA[Social Media Page]]></title>
-                <content><![CDATA[<p>Highlight customers using your services who share about it on social media here with an instagram feed! Make an introduction here and embed your feed below.</p>]]></content>
-                <embed_code><![CDATA[<iframe src="http://instaembedder.com/gallery-v2.php?width=200&cols=7&rows=1&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=transparent&cid=2805&" frameborder="0" width="100%" height="255" ></iframe>]]></embed_code>
-              </item>
-            </items>
-          </templateset>
-
 
           <dataset name="featured_in" name_friendly="Services I Offer">
               <fields>
-                  <text name="name" name_friendly="Name of Feature Logo" required="1" />
-                  <images name="image" name_friendly="Logo" limit="1" />
-                  <text name="url" name_friendly="Link (optional)" limit="1" />
+                  <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
+                  <images name="image" name_friendly="Logo" limit="1" list="1"/>
+                  <text name="url" name_friendly="Link (optional)" limit="1" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                  <item link_title="" path_part="">
-                      <name>(Solanaceae) The Family</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Pepper'[3] Nicholas Misnomer</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>The Pepper Form</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Sichuan Or Its</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>Is Eaten While</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Is French Is</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>Capsicum In Capsicum</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Genus Capsicum Is</url>
-                  </item>
                   <item link_title="Eyelash Extensions" path_part="">
-                      <name>It Paprika Is</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Dishes Pepper&#x2014;is Aleva</url>
-                  </item>
-                  <item link_title="Eyelash Extensions" path_part="">
-                      <name>Or Cooking Cooking</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Others Capsicum Bell</url>
+                      <name><![CDATA[Eyelash Extensions]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></image>
+                      <url><![CDATA[]]></url>
+                      <sort_order><![CDATA[1]]></sort_order>
                   </item>
                   <item link_title="Microblading" path_part="">
-                      <name>City City Cayenne</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Fruits Are Generally</url>
+                      <name><![CDATA[Microblading]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[2]]></sort_order>
                   </item>
                   <item link_title="Waxing" path_part="">
-                      <name>For For Guiana</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Nightshade Nightshade In</url>
+                      <name><![CDATA[Waxing]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[3]]></sort_order>
                   </item>
                   <item link_title="Facials" path_part="">
-                      <name>And Cooking Cayenne</name>
-                      <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
-                      <url>Is Of Is</url>
+                      <name><![CDATA[Facials]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[4]]></sort_order>
                   </item>
               </items>
           </dataset>
