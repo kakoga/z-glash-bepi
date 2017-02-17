@@ -90,7 +90,6 @@
                   </item>
               </items>
           </templateset>
-          
           <!-- 5.1 Services: services(products) pageset -->
           <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
@@ -125,7 +124,7 @@
                 <items>
                   <item link_title="Testimonials" path_part="testimonials">
                       <title>Is Guiana It</title>
-                      <description>&lt;h2&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/h2&gt; &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Named The&lt;/li&gt; &lt;li&gt;Of Named&lt;/li&gt; &lt;li&gt;In For&lt;/li&gt; &lt;li&gt;Of Of&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt; &lt;blockquote&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/blockquote&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt;</description>
+                      <description></description>
                       <image>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/1024px-Thai_peppers.jpg</image>
                   </item>
                 </items>
