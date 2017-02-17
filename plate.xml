@@ -21,7 +21,7 @@
           <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Garnet Lash Website]]></text>
           <images name="logo" name_friendly="Site Logo" limit="1"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Garnet-Logo.png]]></images>
           <text name="footer_text" name_friendly="Footer Text"><![CDATA[Garnet Enterprises]]></text>
-          <images name="form_background_image" name_friendly="Form Background Image"><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/No-More-Falsies.jpg]]></images>
+          <images name="form_background_image" name_friendly="Form Background Image"><![CDATA[https://1f6d6298c93a5c13bc66-b51af920a2f21ba9f3e3bfcd36fc93f6.ssl.cf2.rackcdn.com/No-More-Falsies01.jpg]]></images>
           <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#garnetlashstudios]]></text>
           <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Service]]></text>
           <text name="featured_title" name_friendly="Feature title"><![CDATA[Services I Offer]]></text>
