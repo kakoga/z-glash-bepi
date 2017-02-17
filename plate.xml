@@ -156,7 +156,7 @@
             </items>
           </pageset>
           <!-- 5.1 Services: services(products) pageset -->
-          <pageset name="products" name_friendly="Products" view="products" parent="services">
+          <pageset name="products" name_friendly="Products" view="products" parent_item="services">
             <fields>
                 <text name="name" name_friendly="Name" list="1" />
                 <wysiwyg_basic name="description" name_friendly="Description" />
