@@ -361,7 +361,7 @@
           </templateset>
 
 
-          <!-- 7. Services: testimonials -->
+          <!-- 7. Testimonials -->
           <templateset name="testimonials" name_friendly="Testimonials" view="testimonials">
             <fields>
               <text name="title" name_friendly="Page Title" required="1" />
@@ -392,7 +392,7 @@
               <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
                 <title><![CDATA[@rduckworth]]></title>
-                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
+                <image><![CDATA[https://1f6d6298c93a5c13bc66-b51af920a2f21ba9f3e3bfcd36fc93f6.ssl.cf2.rackcdn.com/rachelle_duckworth_home.jpg]]></image>
                 <description><![CDATA[<p>Danielle is seriously a lash guru!</p>
                   <p><br />I was feeling extremely discouraged, and ready to give up on lashing. Then I met Danielle and had the opportunity to participate in her training program. She changed everything by providing the right tools and sharing her expert knowledge.</p>
                   <p><br />Before participating in Danielle&rsquo;s training program, I had been &lsquo;certified&rsquo; through a larger brand. The training was short, and expensive. The product was difficult to work with leaving me constantly frustrated that my results were not up to par. After months of practice I still didn&rsquo;t feel ready to take clients.</p>
@@ -407,7 +407,7 @@
               <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
                 <title><![CDATA[@racheydoty]]></title>
-                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachel-Doty.jpg]]></image>
+                <image><![CDATA[https://1f6d6298c93a5c13bc66-b51af920a2f21ba9f3e3bfcd36fc93f6.ssl.cf2.rackcdn.com/rachel_doty_home.jpg]]></image>
                 <description><![CDATA[<p>&ldquo;Hi my name is Rachel! I was trained through an outside lash company and I was so lost and confused- the things they taught me were only slowing me down more. <br />Danielle and Amanda re-trained me and completely changed my lash life! They were so amazing, sweet, patient, and helpful. In one day, with the tips and tricks, amazing product, time they spent visually showing me, watching me, and answering my questions thoroughly, I went from a struggling lash artist who could barely do a full set in 4 hours with only 30 lashes on each eye to a confident lash artist who can now deliver beautiful, full, lashes on every single lash in half the time. I&rsquo;m forever thankful for Danielle and Amanda! Now I finally feel I&rsquo;m ready to shine as an eyelash specialist.&rdquo;</p>]]></description>
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
