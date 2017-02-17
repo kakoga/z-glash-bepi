@@ -280,15 +280,15 @@
               <wysiwyg_advanced name="content" name_friendly="Page Content" />
             </fields>
             <items>
-              <item link_title="Privacy Policy" path_part="privacy-policy">
+              <item link_title="Privacy Policy" path_part="privacy-policy" hidden="true">
                   <title><![CDATA[Privacy Policy]]></title>
                   <content><![CDATA[<p>See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a></p>]]></content>
               </item>
-              <item link_title="Terms of Use" path_part="terms-of-use">
+              <item link_title="Terms of Use" path_part="terms-of-use" hidden="true">
                   <title><![CDATA[Terms of Use]]></title>
                   <content><![CDATA[<p>See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a></p>]]></content>
               </item>
-              <item link_title="Thank You" path_part="thank-you">
+              <item link_title="Thank You" path_part="thank-you" hidden="true">
                   <title><![CDATA[Thank You]]></title>
                   <content><![CDATA[<p>We will be sending you awesome stories once a month.</p>]]></content>
               </item>
