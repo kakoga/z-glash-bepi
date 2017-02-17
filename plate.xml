@@ -78,7 +78,7 @@
           </templateset>
 
           <!-- 5. Services -->
-          <templateset name="services" name_friendly="Services" view="product_page">
+          <templateset name="services" name_friendly="Services" view="services">
               <fields>
                   <text name="title" name_friendly="Page Title" required="1" />
                   <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
