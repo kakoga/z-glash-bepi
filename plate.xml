@@ -337,7 +337,7 @@
               <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
               <text name="location" name_friendly="Location" />
               <sort name="sort" name_friendly="Sort Order" list="1"/>
-              <one_to_one name="favorite_product" name_friendly="Favorite Product" />
+              <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
             </fields>
             <items>
               <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="services">
@@ -353,7 +353,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[1]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
               <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="services">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
@@ -363,7 +363,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[2]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
               <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="services">
                 <name><![CDATA[Tifany, Expert Lash Artist]]></name>
@@ -373,7 +373,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[3]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
             </items>
           </pageset>
