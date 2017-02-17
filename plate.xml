@@ -84,14 +84,14 @@
                   <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
               </fields>
               <items>
-                  <item link_title="Services" path_part="Services">
+                  <item link_title="Services" path_part="services">
                       <title><![CDATA[]]></title>
                       <description><![CDATA[]]></description>
                   </item>
               </items>
           </templateset>
           <!-- 5.1 Services: services(products) pageset -->
-          <pageset name="products" name_friendly="Products" view="products" parent_item="services">
+          <pageset name="products" name_friendly="Products" view="products" parent="services">
           </pageset>
           <!-- <pageset name="products" name_friendly="Products" view="products" parent_item="services">
               <fields>
