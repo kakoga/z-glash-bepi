@@ -419,5 +419,25 @@
           <dataset name="footer_links" name_friendly="Footer Links">
               <fields/>
           </dataset>
+          <!-- 7. About -->
+          <templateset name="about" name_friendly="About" view="about">
+            <fields>
+              <text name="title" name_friendly="Title" />
+              <images name="image" name_friendly="Image" />
+              <wysiwyg_advanced name="top_content" name_friendly="Top Content" />
+              <textarea name="blockquote" name_friendly="Blockquote Text" />
+              <wysiwyg_advanced name="bottom_content" name_friendly="Bottom Content" />
+            </fields>
+            <items>
+              <item link_title="about" path_part="about">
+                  <title><![CDATA[About Me]]></title>
+                  <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
+                  <content>
+                    <![CDATA[<p>The About page is the section of a website where people go to find out about the website   they&rsquo;re on.</p>
+                    <p>Readers will visit this section for many reasons and with various questions they want answered, but your objective is the same: to inform them why they are on the site or why they should be on the site.</p>]]>
+                  </content>
+              </item>
+            </items>
+          </templateset>
         </ingredients>
     </plate>
