@@ -47,9 +47,9 @@
                       <name><![CDATA[Facebook]]></name>
                       <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
                       <url><![CDATA[https://www.facebook.com]]></url>
-                      <sort><![CDATA[]]></sort>
+                      <sort><![CDATA[1]]></sort>
                   </item>
-                  <item link_title="" path_part="">
+                  <!-- <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
@@ -65,7 +65,7 @@
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
-                      <sort><![CDATA[]]></sort>
+                      <sort><![CDATA[]]></sort> -->
                   </item>
               </items>
           </dataset>
