@@ -326,25 +326,25 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
-                <item link_title="Eyelash Extensions" path_part="eyelash-extensions" parent="services">
-                    <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
+                <item link_title="Lash Extensions" path_part="lash-extensions" parent="services">
+                    <name><![CDATA[Lash Extensions]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></main_image>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="Microblading" path_part="microblading" parent="services">
-                    <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
+                    <name><![CDATA[Microblading]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></main_image>
-                    <sort_order><![CDATA[1]]></sort_order>
+                    <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item link_title="Waxing" path_part="waxing" parent="services">
-                    <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
+                    <name><![CDATA[Waxing]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></main_image>
-                    <sort_order><![CDATA[1]]></sort_order>
+                    <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item link_title="Facials" path_part="facials" parent="services">
-                    <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
+                    <name><![CDATA[Facials]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></main_image>
-                    <sort_order><![CDATA[1]]></sort_order>
+                    <sort_order><![CDATA[4]]></sort_order>
                 </item>
             </items>
           </pageset>
