@@ -98,6 +98,9 @@
                   </item>
               </items>
           </dataset>
+          <dataset name="footer_links" name_friendly="Footer Links">
+              <fields/>
+          </dataset>
           <!-- 1. Homepage -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
@@ -332,7 +335,7 @@
               <images name="image" name_friendly="Image" limit="1" list="1"/>
               <wysiwyg_advanced name="description" name_friendly="Description" />
               <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
-              <text name="location" name_friendly="Location" />
+              <text name="location" name_friendly="Location" list="1" />
               <sort name="sort" name_friendly="Sort Order" list="1"/>
               <one_to_one name="favorite_product" name_friendly="Favorite Product" />
             </fields>
@@ -415,9 +418,7 @@
             </items>
           </templateset>
 
-          <dataset name="footer_links" name_friendly="Footer Links">
-              <fields/>
-          </dataset>
+
           <!-- 7. About -->
           <templateset name="about" name_friendly="About" view="about">
             <fields>
