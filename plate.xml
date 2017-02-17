@@ -90,7 +90,7 @@
                   </item>
               </items>
           </templateset>
-          <!-- 5.2 Services: testimonials -->
+          <!-- 5.1 Services: testimonials -->
           <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="services">
             <fields>
               <text name="title" name_friendly="Page Title" required="1" />
@@ -105,6 +105,56 @@
               </item>
             </items>
           </templateset>
+          <!-- 5.2 Services: testimonials pageset -->
+          <pageset name="individual_testimonials" name_friendly="Individual Testimonials" view="individual_testimonials" parent_item="testimonials">
+            <fields>
+              <text name="name" name_friendly="Name" required="1" list="1"/>
+              <text name="title" name_friendly="Instagram Handle" list="1"/>
+              <images name="image" name_friendly="Image" limit="1" list="1"/>
+              <wysiwyg_advanced name="description" name_friendly="Description" />
+              <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
+              <text name="location" name_friendly="Location" />
+              <sort name="sort" name_friendly="Sort Order" list="1"/>
+              <one_to_one name="favorite_product" name_friendly="Favorite Product" />
+            </fields>
+            <items>
+              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist">
+                <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
+                <title><![CDATA[@rduckworth]]></title>
+                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
+                <description><![CDATA[<p>Danielle is seriously a lash guru!</p>
+                  <p><br />I was feeling extremely discouraged, and ready to give up on lashing. Then I met Danielle and had the opportunity to participate in her training program. She changed everything by providing the right tools and sharing her expert knowledge.</p>
+                  <p><br />Before participating in Danielle&rsquo;s training program, I had been &lsquo;certified&rsquo; through a larger brand. The training was short, and expensive. The product was difficult to work with leaving me constantly frustrated that my results were not up to par. After months of practice I still didn&rsquo;t feel ready to take clients.</p>
+                  <p><br />A friend of mine knew of the frustrations I was having while trying to get my lashing career started and put me in contact with Danielle. After talking to her I knew right away that I wanted to participate in her training program. She is very knowledgeable and passionate about what she does, and it really shows in her work. Her hands on approach and lashing techniques are so valuable.</p>
+                  <p>Upon completing Danielle&rsquo;s training I couldn&rsquo;t wait to get out there and start lashing! I now have the proper set of skills to feel confident and am getting results that I am proud of. I highly encourage anyone that is interested in becoming a lash artist, or a lash artist that is feeling discouraged, to participate in this program! Best decision ever!</p>
+                  <p><em>-Happy Lash Artist (Rachelle D)</em></p>]]></description>
+                <quote><![CDATA[]]></quote>
+                <location><![CDATA[San Diego, CA]]></location>
+                <sort><![CDATA[1]]></sort>
+                <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist">
+                <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
+                <title><![CDATA[@racheydoty]]></title>
+                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachel-Doty.jpg]]></image>
+                <description><![CDATA[<p>&ldquo;Hi my name is Rachel! I was trained through an outside lash company and I was so lost and confused- the things they taught me were only slowing me down more. <br />Danielle and Amanda re-trained me and completely changed my lash life! They were so amazing, sweet, patient, and helpful. In one day, with the tips and tricks, amazing product, time they spent visually showing me, watching me, and answering my questions thoroughly, I went from a struggling lash artist who could barely do a full set in 4 hours with only 30 lashes on each eye to a confident lash artist who can now deliver beautiful, full, lashes on every single lash in half the time. I&rsquo;m forever thankful for Danielle and Amanda! Now I finally feel I&rsquo;m ready to shine as an eyelash specialist.&rdquo;</p>]]></description>
+                <quote><![CDATA[]]></quote>
+                <location><![CDATA[San Diego, CA]]></location>
+                <sort><![CDATA[2]]></sort>
+                <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+              <item link_title="Tifany" path_part="tifany-expert-lash-artist">
+                <name><![CDATA[Tifany, Expert Lash Artist]]></name>
+                <title><![CDATA[@s3ren3]]></title>
+                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Tifany.jpg]]></image>
+                <description><![CDATA[<p>Eyelash extension artist&bull;product junkie&bull;esthetician&bull;artist&bull;jewelry designer&bull;DIY lover&bull;comic lover&bull;sailor moon lover&bull;90's lover&bull;cat lover&bull;no h8&bull; ♡</p>]]></description>
+                <quote><![CDATA[]]></quote>
+                <location><![CDATA[San Diego, CA]]></location>
+                <sort><![CDATA[3]]></sort>
+                <favorite_product><![CDATA[]]></favorite_product>
+              </item>
+            </items>
+          </pageset>
           <!-- 5.1 Services: services(products) pageset -->
           <pageset name="products" name_friendly="Products" view="products" parent="services">
             <fields>
