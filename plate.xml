@@ -171,6 +171,56 @@
               </item>
             </items>
           </dataset>
+          <!-- 2. Book Now -->
+          <!-- eventually will have embedded calendar via Acuity scheduling software. may need to be via webhook. -->
+          <templateset name="book_now" name_friendly="Book Now" view="book_now">
+            <fields>
+              <text name="title" name_friendly="Title" />
+              <images name="image" name_friendly="Image" />
+              <textarea name="embed" name_friendly="Acuity iframe Embed Link" />
+              <wysiwyg_advanced name="content" name_friendly="Content" />
+              <yes_no name="book_now_button" name_friendly="Book Now Button?" options="0:Show Button;1:Don't Show Button;"/>
+            </fields>
+            <items>
+              <item link_title="BOOK NOW" path_part="book-now-1">
+                  <title><![CDATA[Book Now]]></title>
+                  <image><![CDATA[]]></image>
+                  <embed><![CDATA[<iframe src="https://app.acuityscheduling.com/schedule.php?owner=13264782" width="100%" height="800" frameBorder="0"></iframe>]]></embed>
+                  <content><![CDATA[Book your appointment now!]]></content>
+                  <book_now_button><![CDATA[Book Now]]></book_now_button>
+              </item>
+            </items>
+          </templateset>
+          <!-- 3. Contact Us -->
+          <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
+            <fields>
+              <text name="title" name_friendly="Title" />
+              <text name="location_name" name_friendly="Location Name" />
+              <text name="address" name_friendly="Street Address" />
+              <text name="city" name_friendly="City" />
+              <text name="state" name_friendly="State" />
+              <text name="zip" name_friendly="Zip Code" />
+              <text name="phone" name_friendly="Phone" />
+              <text name="fax" name_friendly="Fax Number" />
+              <text name="email" name_friendly="Email" />
+              <textarea name="link_to_map" name_friendly="Link to Google Map Page" />
+              <images name="backup_photo" name_friendly="Image (will only show if there is not a Google Maps Embed link)" />
+            </fields>
+            <items>
+              <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
+                  <title><![CDATA[]]></title>
+                  <studio_name><![CDATA[]]></studio_name>
+                  <street_address><![CDATA[]]></street_address>
+                  <city><![CDATA[]]></city>
+                  <state><![CDATA[]]></state>
+                  <phone><![CDATA[]]></phone>
+                  <fax><![CDATA[]]></fax>
+                  <email><![CDATA[]]></email>
+                  <google_map_link><![CDATA[]]></google_map_link>
+                  <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
+              </item>
+            </items>
+          </templateset>
           <!-- 6. Social Media  -->
           <templateset name="social-media" name_friendly="Social Media Page" view="social-media">
             <fields>
@@ -315,26 +365,7 @@
                 </item>
             </items>
           </pageset>
-          <!-- 2. Book Now -->
-          <!-- eventually will have embedded calendar via Acuity scheduling software. may need to be via webhook. -->
-          <templateset name="book_now" name_friendly="Book Now" view="book_now">
-            <fields>
-              <text name="title" name_friendly="Title" />
-              <images name="image" name_friendly="Image" />
-              <textarea name="embed" name_friendly="Acuity iframe Embed Link" />
-              <wysiwyg_advanced name="content" name_friendly="Content" />
-              <yes_no name="book_now_button" name_friendly="Book Now Button?" options="0:Show Button;1:Don't Show Button;"/>
-            </fields>
-            <items>
-              <item link_title="BOOK NOW" path_part="book-now-1">
-                  <title><![CDATA[Book Now]]></title>
-                  <image><![CDATA[]]></image>
-                  <embed><![CDATA[<iframe src="https://app.acuityscheduling.com/schedule.php?owner=13264782" width="100%" height="800" frameBorder="0"></iframe>]]></embed>
-                  <content><![CDATA[Book your appointment now!]]></content>
-                  <book_now_button><![CDATA[Book Now]]></book_now_button>
-              </item>
-            </items>
-          </templateset>
+
           <dataset name="footer_links" name_friendly="Footer Links">
               <fields/>
           </dataset>
