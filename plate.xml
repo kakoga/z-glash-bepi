@@ -40,27 +40,32 @@
                   <text name="name" name_friendly="Social Media Name" required="1" list="1" />
                   <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" list="1" />
                   <text name="url" name_friendly="Social Media Link" limit="1" list="1"/>
+                  <sort name="sort" name_friendly="Sort Order" list="1"/>
               </fields>
               <items>
                   <item link_title="" path_part="">
                       <name><![CDATA[Facebook]]></name>
                       <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
                       <url><![CDATA[https://www.facebook.com]]></url>
+                      <sort><![CDATA[]]></sort>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <sort><![CDATA[]]></sort>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <sort><![CDATA[]]></sort>
                   </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
+                      <sort><![CDATA[]]></sort>
                   </item>
               </items>
           </dataset>
