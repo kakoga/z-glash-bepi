@@ -179,7 +179,7 @@
             </items>
           </dataset>
           <!-- 2. Book Now -->
-          
+
           <templateset name="book_now" name_friendly="Book Now" view="book_now">
             <fields>
               <text name="title" name_friendly="Title" />
@@ -420,7 +420,7 @@
               <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
             </fields>
             <items>
-              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="about">
+              <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
                 <title><![CDATA[@rduckworth]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
@@ -435,7 +435,7 @@
                 <sort><![CDATA[1]]></sort>
                 <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
-              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="about">
+              <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
                 <title><![CDATA[@racheydoty]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachel-Doty.jpg]]></image>
@@ -445,7 +445,7 @@
                 <sort><![CDATA[2]]></sort>
                 <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
-              <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="about">
+              <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="testimonials">
                 <name><![CDATA[Tifany, Expert Lash Artist]]></name>
                 <title><![CDATA[@s3ren3]]></title>
                 <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Tifany.jpg]]></image>
