@@ -182,7 +182,7 @@
               <yes_no name="book_now_button" name_friendly="Book Now Button?" options="0:Show Button;1:Don't Show Button;"/>
             </fields>
             <items>
-              <item link_title="BOOK NOW" path_part="book-now-1">
+              <item link_title="book now" path_part="book-now">
                   <title><![CDATA[Book Now]]></title>
                   <image><![CDATA[]]></image>
                   <embed><![CDATA[<iframe src="https://app.acuityscheduling.com/schedule.php?owner=13264782" width="100%" height="800" frameBorder="0"></iframe>]]></embed>
@@ -254,10 +254,6 @@
               <item link_title="Thank You" path_part="thank-you">
                   <title><![CDATA[Thank You]]></title>
                   <content><![CDATA[<p>We will be sending you awesome stories once a month.</p>]]></content>
-              </item>
-              <item link_title="BOOK NOW" path_part="book-now">
-                  <title><![CDATA[]]></title>
-                  <content><![CDATA[]]></content>
               </item>
               </items>
           </templateset>
