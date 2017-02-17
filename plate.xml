@@ -49,12 +49,6 @@
                       <url><![CDATA[https://www.facebook.com]]></url>
                       <sort><![CDATA[1]]></sort>
                   </item>
-                  <!-- <item link_title="" path_part="">
-                      <name><![CDATA[]]></name>
-                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
-                      <url><![CDATA[]]></url>
-                      <sort><![CDATA[]]></sort>
-                  </item>
                   <item link_title="" path_part="">
                       <name><![CDATA[]]></name>
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
@@ -66,7 +60,13 @@
                       <font_awesome_icon><![CDATA[]]></font_awesome_icon>
                       <url><![CDATA[]]></url>
                       <sort><![CDATA[]]></sort>
-                  </item> -->
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[]]></name>
+                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                      <url><![CDATA[]]></url>
+                      <sort><![CDATA[]]></sort>
+                  </item>
               </items>
           </dataset>
           <dataset name="featured_in" name_friendly="Services I Offer">
