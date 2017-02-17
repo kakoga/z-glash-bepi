@@ -36,6 +36,69 @@
           <fontawesome name="fontawesome_icon" name_friendly="My Fontawesome Icon (get icon from http://fontawesome.io/icons/)"><![CDATA[fa-calendar-check-o]]></fontawesome>
         </clippings>
         <ingredients>
+          <dataset name="social_links" name_friendly="Social Links">
+              <fields>
+                  <text name="name" name_friendly="Social Media Name" required="1" />
+                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
+                  <text name="url" name_friendly="Social Media Link" limit="1" />
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[]]></name>
+                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                      <url><![CDATA[]]></url>
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[]]></name>
+                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                      <url><![CDATA[]]></url>
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[]]></name>
+                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                      <url><![CDATA[]]></url>
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[]]></name>
+                      <font_awesome_icon><![CDATA[]]></font_awesome_icon>
+                      <url><![CDATA[]]></url>
+                  </item>
+              </items>
+          </dataset>
+          <dataset name="featured_in" name_friendly="Services I Offer">
+              <fields>
+                  <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
+                  <images name="image" name_friendly="Logo" limit="1" list="1"/>
+                  <text name="url" name_friendly="Link (optional)" limit="1" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
+              </fields>
+              <items>
+                  <item link_title="Eyelash Extensions" path_part="">
+                      <name><![CDATA[Eyelash Extensions]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></image>
+                      <url><![CDATA[]]></url>
+                      <sort_order><![CDATA[1]]></sort_order>
+                  </item>
+                  <item link_title="Microblading" path_part="">
+                      <name><![CDATA[Microblading]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[2]]></sort_order>
+                  </item>
+                  <item link_title="Waxing" path_part="">
+                      <name><![CDATA[Waxing]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[3]]></sort_order>
+                  </item>
+                  <item link_title="Facials" path_part="">
+                      <name><![CDATA[Facials]]></name>
+                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></image>
+                      <url><![CDATA[http://www.example.com]]></url>
+                      <sort_order><![CDATA[4]]></sort_order>
+                  </item>
+              </items>
+          </dataset>
           <!-- 6. Social Media  -->
           <templateset name="social-media" name_friendly="Social Media Page" view="social-media">
             <fields>
@@ -181,40 +244,7 @@
             </items>
           </pageset>
 
-          <dataset name="featured_in" name_friendly="Services I Offer">
-              <fields>
-                  <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
-                  <images name="image" name_friendly="Logo" limit="1" list="1"/>
-                  <text name="url" name_friendly="Link (optional)" limit="1" list="1" />
-                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
-              </fields>
-              <items>
-                  <item link_title="Eyelash Extensions" path_part="">
-                      <name><![CDATA[Eyelash Extensions]]></name>
-                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></image>
-                      <url><![CDATA[]]></url>
-                      <sort_order><![CDATA[1]]></sort_order>
-                  </item>
-                  <item link_title="Microblading" path_part="">
-                      <name><![CDATA[Microblading]]></name>
-                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></image>
-                      <url><![CDATA[http://www.example.com]]></url>
-                      <sort_order><![CDATA[2]]></sort_order>
-                  </item>
-                  <item link_title="Waxing" path_part="">
-                      <name><![CDATA[Waxing]]></name>
-                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></image>
-                      <url><![CDATA[http://www.example.com]]></url>
-                      <sort_order><![CDATA[3]]></sort_order>
-                  </item>
-                  <item link_title="Facials" path_part="">
-                      <name><![CDATA[Facials]]></name>
-                      <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></image>
-                      <url><![CDATA[http://www.example.com]]></url>
-                      <sort_order><![CDATA[4]]></sort_order>
-                  </item>
-              </items>
-          </dataset>
+
           <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
               <fields>
                   <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
@@ -267,35 +297,7 @@
                   </item>
               </items>
           </dataset>
-          <dataset name="social_links" name_friendly="Social Links">
-              <fields>
-                  <text name="name" name_friendly="Social Media Name" required="1" />
-                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
-                  <text name="url" name_friendly="Social Media Link" limit="1" />
-              </fields>
-              <items>
-                  <item link_title="" path_part="">
-                      <name>Misnomer Complete Herbal</name>
-                      <font_awesome_icon>Spice Powdered The</font_awesome_icon>
-                      <url>Cow-horn Pepper To</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>The The Family</name>
-                      <font_awesome_icon>But Still To</font_awesome_icon>
-                      <url>Pulped Powdered Sifted</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>In Of Cayenne</name>
-                      <font_awesome_icon>And A A</font_awesome_icon>
-                      <url>50000 Rated 30000</url>
-                  </item>
-                  <item link_title="" path_part="">
-                      <name>And Which Ground</name>
-                      <font_awesome_icon>French City Guiana</font_awesome_icon>
-                      <url>30000 To It</url>
-                  </item>
-              </items>
-          </dataset>
+
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
                   <text name="title1" name_friendly="Title (Section 1)" required="1" />
