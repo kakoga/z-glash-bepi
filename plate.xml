@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
     <plate>
-
         <head>
           <doctype>html5</doctype>
           <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -429,7 +428,7 @@
               <wysiwyg_advanced name="bottom_content" name_friendly="Bottom Content" />
             </fields>
             <items>
-              <item link_title="about" path_part="about">
+              <item link_title="About" path_part="about">
                   <title><![CDATA[About Me]]></title>
                   <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
                   <content>
