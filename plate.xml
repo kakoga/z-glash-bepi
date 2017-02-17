@@ -358,7 +358,9 @@
                 <images name="main_image" name_friendly="Main Image" list="1" />
                 <images name="additional_images" name_friendly="Additional Images" />
                 <link name="where_to_buy_link" name_friendly="Book Now" />
+                <one_to_one name="product_category" name_friendly="Product Category" relationship="product_category" relationship_field="service_category" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
+                <!-- add a one_to_one relationship to categories (one product to one category) -->
             </fields>
             <items>
                 <item link_title="Full Set of Classic Lash Extensions" path_part="full-set-of-classic-lash-extensions" parent="services">
@@ -369,6 +371,7 @@
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Lash-Collage-1.jpg]]></main_image>
                     <additional_images><![CDATA[]]></additional_images>
                     <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[]]></product_category>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
             </items>
