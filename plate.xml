@@ -317,18 +317,6 @@
                   </item>
               </items>
           </dataset>
-          <templateset name="product_page" name_friendly="Product Page" view="product_page">
-              <fields>
-                  <text name="title" name_friendly="Page Title" required="1" />
-                  <wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
-              </fields>
-              <items>
-                  <item link_title="Services" path_part="Services">
-                      <title>Especially Or Hot</title>
-                      <description>&lt;h2&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/h2&gt; &lt;p&gt;The Capsicum genus is in the nightshade family (Solanaceae)&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Rated It&lt;/li&gt; &lt;li&gt;Units Units&lt;/li&gt; &lt;li&gt;Generally Scoville&lt;/li&gt; &lt;li&gt;Is Rated&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/p&gt; &lt;blockquote&gt;It is generally rated at 30,000 to 50,000 Scoville units&lt;/blockquote&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</description>
-                  </item>
-              </items>
-          </templateset>
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
                   <text name="title1" name_friendly="Title (Section 1)" required="1" />
