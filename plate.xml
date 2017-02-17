@@ -37,9 +37,9 @@
         <ingredients>
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
-                  <text name="name" name_friendly="Social Media Name" required="1" />
-                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
-                  <text name="url" name_friendly="Social Media Link" limit="1" />
+                  <text name="name" name_friendly="Social Media Name" required="1" list="1" />
+                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" list="1" />
+                  <text name="url" name_friendly="Social Media Link" limit="1" list="1"/>
               </fields>
               <items>
                   <item link_title="" path_part="">
