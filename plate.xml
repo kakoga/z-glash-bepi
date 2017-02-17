@@ -337,23 +337,18 @@
               <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
               <text name="location" name_friendly="Location" list="1" />
               <sort name="sort" name_friendly="Sort Order" list="1"/>
-              <one_to_one name="favorite_product" name_friendly="Favorite Product" />
+              <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
             </fields>
             <items>
               <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="services">
-                <name><![CDATA[Rachelle Duckworth, Master Lash Artist]]></name>
-                <title><![CDATA[@rduckworth]]></title>
-                <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Rachelle-Duckworth.jpg]]></image>
-                <description><![CDATA[<p>Danielle is seriously a lash guru!</p>
-                  <p><br />I was feeling extremely discouraged, and ready to give up on lashing. Then I met Danielle and had the opportunity to participate in her training program. She changed everything by providing the right tools and sharing her expert knowledge.</p>
-                  <p><br />Before participating in Danielle&rsquo;s training program, I had been &lsquo;certified&rsquo; through a larger brand. The training was short, and expensive. The product was difficult to work with leaving me constantly frustrated that my results were not up to par. After months of practice I still didn&rsquo;t feel ready to take clients.</p>
-                  <p><br />A friend of mine knew of the frustrations I was having while trying to get my lashing career started and put me in contact with Danielle. After talking to her I knew right away that I wanted to participate in her training program. She is very knowledgeable and passionate about what she does, and it really shows in her work. Her hands on approach and lashing techniques are so valuable.</p>
-                  <p>Upon completing Danielle&rsquo;s training I couldn&rsquo;t wait to get out there and start lashing! I now have the proper set of skills to feel confident and am getting results that I am proud of. I highly encourage anyone that is interested in becoming a lash artist, or a lash artist that is feeling discouraged, to participate in this program! Best decision ever!</p>
-                  <p><em>-Happy Lash Artist (Rachelle D)</em></p>]]></description>
+                <name><![CDATA[]]></name>
+                <title><![CDATA[]]></title>
+                <image><![CDATA[]]></image>
+                <description><![CDATA[]]></description>
                 <quote><![CDATA[]]></quote>
-                <location><![CDATA[San Diego, CA]]></location>
-                <sort><![CDATA[1]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <location><![CDATA[]]></location>
+                <sort><![CDATA[]]></sort>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
               <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="services">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
@@ -363,7 +358,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[2]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
               <item link_title="Tifany" path_part="tifany-expert-lash-artist" parent="services">
                 <name><![CDATA[Tifany, Expert Lash Artist]]></name>
@@ -373,7 +368,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[3]]></sort>
-                <favorite_product><![CDATA[]]></favorite_product>
+                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
               </item>
             </items>
           </pageset>
