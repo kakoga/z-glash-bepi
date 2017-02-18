@@ -127,14 +127,14 @@
                 <item link_title="" path_part="">
                   <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
-                  <external_link><![CDATA[]]></external_link>
+                  <external_link><![CDATA[test]]></external_link>
                 </item>
             </items>
             <items>
                 <item link_title="" path_part="">
                   <name><![CDATA[About]]></name>
                   <internal_nav_link><![CDATA[501]]></internal_nav_link>
-                  <external_link><![CDATA[]]></external_link>
+                  <external_link><![CDATA[test]]></external_link>
                 </item>
             </items>
           </dataset>
