@@ -527,7 +527,7 @@
               <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
               <text name="location" name_friendly="Location" />
               <sort name="sort" name_friendly="Sort Order" list="1"/>
-              <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
+              <one_to_many name="services_used" name_friendly="Services Used" relationship="service-category" relationship_field="name" />
             </fields>
             <items>
               <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="testimonials">
@@ -543,7 +543,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[1]]></sort>
-                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
+                <services_used><![CDATA[0]]></services_used>
               </item>
               <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>
