@@ -125,16 +125,11 @@
             </fields>
             <items>
                 <item link_title="" path_part="">
-                  <name></name>
-                  <internal_nav_link></internal_nav_link>
-                  <external_link></external_link>
-                  <parent_link></parent_link>
-                  <sort_order></sort_order>
-                    <!-- <name><![CDATA[Home]]></name>
-                    <internal_nav_link><![CDATA[]]></internal_nav_link>
-                    <external_link><![CDATA[517]]></external_link>
-                    <parent_link><![CDATA[]]></parent_link>
-                    <sort_order><![CDATA[1]]></sort_order> -->
+                  <name><![CDATA[]]></name>
+                  <internal_nav_link><![CDATA[]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[]]></parent_link>
+                  <sort_order><![CDATA[5]]></sort_order>
                 </item>
             </items>
           </dataset>
