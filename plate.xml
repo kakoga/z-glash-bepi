@@ -420,12 +420,14 @@
             <fields>
                 <text name="name" name_friendly="Name" list="1" />
                 <images name="main_image" name_friendly="Main Image" list="1" />
+                <wysiwyg_basic name="description" name_friendly="Description" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
                 <item link_title="Lash Extensions" path_part="lash-extensions" parent="services">
                     <name><![CDATA[Lash Extensions]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></main_image>
+                    <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="Microblading" path_part="microblading" parent="services">

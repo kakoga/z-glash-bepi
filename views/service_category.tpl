@@ -4,24 +4,22 @@
 	<div class="container">
 		
 		<div class="product" itemscope="" itemtype="http://schema.org/Product">
-			<h1 itemprop="name">{{page.name}}</h1>
+			
 			<div class="row">
 				<div class="col-md-6">
 					<div class="team-wrap">
-						
-						<img src="{{ page.main_image.getImage() }}" alt="{{ page.name }} Icon" />
-						<div style="text-align:center">
-							{{include social-buttons}}
-						</div>
-						
-						
+						<h1 itemprop="name">{{page.name}}</h1>
 					</div>
 				</div>
 				<div class="col-md-6">
-					
-					<div class="description" itemprop="description">{{page.description}}</div>
+					<div style="text-align:center">
+						<br/>
+							{{include social-buttons}}
+						</div>
 				</div>
 			</div>
+			
+					<div class="description text-center" itemprop="description">{{page.description}}</div>
 			<hr/>
 			<div class="row">
 				{{ each products as pro where pro.product_category = {page.zid} sort by pro.sort_order }}
