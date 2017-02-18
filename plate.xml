@@ -120,7 +120,7 @@
                 <text name="name" name_friendly="Name" required="1" list="1" />
                 <internal_link name="internal_nav_link" name_friendly="Internal Nav Link" list="1" />
                 <text name="external_link" name_friendly="External Link" list="1" />
-                <internal_link name="parent_page" name_friendly="Dropdown Item of" list="1" />
+                <internal_link name="dropdown_item_of" name_friendly="Dropdown Item of" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
@@ -128,6 +128,8 @@
                   <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
+                  <dropdown_item_of><![CDATA[]]></dropdown_item_of>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
             </items>
           </dataset>
