@@ -110,8 +110,8 @@
             </fields>
             <items>
                 <item link_title="" path_part="">
-                    <name><![CDATA[]]></name>
-                    <sort_order><![CDATA[]]></sort_order>
+                    <name><![CDATA[Home]]></name>
+                    <sort_order><![CDATA[1]]></sort_order>
                 </item>
             </items>
           </dataset>
@@ -125,7 +125,7 @@
             </fields>
             <items>
                 <item link_title="" path_part="">
-                  <name><![CDATA[]]></name>
+                  <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_link><![CDATA[]]></parent_link>
