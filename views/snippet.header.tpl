@@ -8,18 +8,39 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-			{{if {clippings.logo} }}
-			<a class="navbar-brand brand-image page-scroll" href="/"><img src="{{clippings.logo.getImage()}}" alt="{{clippings.site_name}} logo"/></a>
-			{{else}}
-			<a class="navbar-brand page-scroll" href="/">{{clippings.site_name}}</a>
-			{{end-if}}
+            {{if {clippings.logo} }}
+            <a class="navbar-brand brand-image page-scroll" href="/"><img src="{{clippings.logo.getImage()}}" alt="{{clippings.site_name}} logo"/></a>
+            {{else}}
+            <a class="navbar-brand page-scroll" href="/">{{clippings.site_name}}</a>
+            {{end-if}}
         </div>
-
+        
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-			{{bootstrap.navigation(nav navbar-nav navbar-right,2)}}
-
+            <ul class="nav navbar-nav navbar-right" id="nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                {{ each nav_links as nl where nl.parent_link = 0 sort by nl.sort_order }}
+                {{ $subnav = 0 }}
+                {{ $name = {nl.name} }}
+                {{ $id = {nl.internal_nav_link} }}
+                {{ each nav_links as subnl where subnl.parent_link = {$id} sort by subnl.sort_order }}
+                {{ $subindex = {index} }}
+                {{ $subnav = 1 }}
+                {{ if {$subindex} == 1 }}
+                <li class=" dropdown"><a class="{{ $name }} dropdown-toggle" href="{{ truepath({$id}) }}" title="{{ $name }}" itemprop="url"><span itemprop="name">{{ $name }}</span><b class="caret"></b></a>
+                    <ul class="{{ $name }} dropdown-menu" id="" itemscope="">
+                        <li class=""><a class="{{ subnl.name }} dropdown-toggle" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
+                        {{ else }}
+                        <li class=""><a class="{{ subnl.name }} dropdown-toggle" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
+                        {{ end-if }}
+                        {{ end-each }}
+                        {{ if {$subnav} == 1 }}
+                    </ul>
+                </li>
+                {{ else }}
+                <li class=""><a class="{{ $name }} dropdown-toggle" href="{{ truepath({$id}) }}" title="{{ $name }}" itemprop="url"><span itemprop="name">{{ $name }}</span></a></li>
+                {{ end-if }}
+                {{ end-each }}
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
