@@ -23,7 +23,7 @@
 				<div class="col-md-6">
 
 					<div class="description" itemprop="description">{{page.description}}</div>
-					<h2><center><div class="price" itemprop="price">${{page.price}}</div></center></h2>
+					<h2><center><div class="price" itemprop="price">{{page.price}}</div></center></h2>
 					<hr>
 
 
