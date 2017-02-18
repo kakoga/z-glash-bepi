@@ -427,7 +427,7 @@
                 <item link_title="Lash Extensions" path_part="lash-extensions" parent="services">
                     <name><![CDATA[Lash Extensions]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></main_image>
-                    <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
+                    <description><![CDATA[<p>Eyelash extensions are the perfect way to add some glamour to your life 24/7. By adhering one eyelash extension to every natural lash, I’m able to create a completely custom look for every client that is maintainable for the long-term.</p>]]></description>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="Microblading" path_part="microblading" parent="services">
@@ -469,18 +469,18 @@
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Lash-Collage-1.jpg]]></main_image>
                     <additional_images><![CDATA[]]></additional_images>
                     <where_to_buy_link><![CDATA[]]></where_to_buy_link>
-                    <product_category><![CDATA[559]]></product_category>
+                    <product_category><![CDATA[556]]></product_category>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
-                <item link_title="Another Lash Service" path_part="another-lash-service" parent="services">
-                    <name><![CDATA[Another Lash Service]]></name>
-                    <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
+                <item link_title="Lash Refresh" path_part="lash-refresh" parent="services">
+                    <name><![CDATA[Lash Refresh]]></name>
+                    <description><![CDATA[<p>This isn’t just a typical ‘fill’ where I fill in lashes that have grown out, but I also preemptively replace lashes I anticipate to fall soon, leaving you with a gorgeous full look after every appointment. </p>]]></description>
                     <specs><![CDATA[]]></specs>
-                    <price><![CDATA[380]]></price>
-                    <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/The-Pamperer.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></main_image>
+                    <price><![CDATA[80]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/16583203_1435123783453297_8827209364482818048_n.jpg]]></main_image>
                     <additional_images><![CDATA[]]></additional_images>
                     <where_to_buy_link><![CDATA[]]></where_to_buy_link>
-                    <product_category><![CDATA[559]]></product_category>
+                    <product_category><![CDATA[556]]></product_category>
                     <sort_order><![CDATA[2]]></sort_order>
                 </item>
             </items>

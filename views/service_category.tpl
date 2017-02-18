@@ -14,12 +14,18 @@
 				<div class="col-md-6">
 					<div style="text-align:center">
 						<br/>
-							{{include social-buttons}}
-						</div>
+						{{include social-buttons}}
+					</div>
 				</div>
 			</div>
 			
+			<div class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
 					<div class="description text-center" itemprop="description">{{page.description}}</div>
+				</div>
+			</div>
 			<hr/>
 			<div class="row">
 				{{ each products as pro where pro.product_category = {page.zid} sort by pro.sort_order }}
