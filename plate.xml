@@ -125,6 +125,34 @@
             </fields>
             <items>
                 <item link_title="" path_part="">
+                  <name><![CDATA[Facials]]></name>
+                  <internal_nav_link><![CDATA[555]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Waxing]]></name>
+                  <internal_nav_link><![CDATA[554]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Microblading]]></name>
+                  <internal_nav_link><![CDATA[553]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Lash Extensions]]></name>
+                  <internal_nav_link><![CDATA[552]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
                   <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
