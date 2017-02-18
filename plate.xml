@@ -105,7 +105,7 @@
           </dataset>
           <dataset name="footer_links" name_friendly="Footer Links">
             <fields>
-                <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
+                <text name="name" name_friendly="Name" required="1" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
@@ -115,7 +115,18 @@
                 </item>
             </items>
           </dataset>
-
+          <dataset name="nav_links" name_friendly="Nav Links">
+            <fields>
+                <text name="name" name_friendly="Name" required="1" list="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+                <item link_title="" path_part="">
+                    <name><![CDATA[]]></name>
+                    <sort_order><![CDATA[]]></sort_order>
+                </item>
+            </items>
+          </dataset>
           <!-- 1. Homepage -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
