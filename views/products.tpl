@@ -4,7 +4,7 @@
     <div class="container">
 
 		<div class="product" itemscope="" itemtype="http://schema.org/Product">
-			<a href="{{product.where_to_buy_link}}" class="btn btn-primary pull-right"><span class="fa {{clippings.fontawesome_icon}}"></span>  Book Now</a>
+			<a href="{{page.where_to_buy_link}}" target="_blank" class="btn btn-primary pull-right"><span class="fa {{clippings.fontawesome_icon}}"></span>  Book Now</a>
 			<h1 itemprop="name">{{page.name}}</h1>
 
 			<div class="row">
@@ -27,7 +27,7 @@
 					<hr>
 
 
-					<a href="{{product.where_to_buy_link}}" class="btn btn-primary btn-sm"><span class="fa {{clippings.fontawesome_icon}}"></span>  Book Now</a>
+					<a href="{{page.where_to_buy_link}}" class="btn btn-primary btn-sm"><span class="fa {{clippings.fontawesome_icon}}"></span>  Book Now</a>
 
 				</div>
 			</div>
