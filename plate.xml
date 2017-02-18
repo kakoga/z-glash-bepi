@@ -118,7 +118,7 @@
           <dataset name="nav_links" name_friendly="Navigation">
             <fields>
                 <text name="name" name_friendly="Name" required="1" list="1" />
-                <internal_link name="internal_nav_link" name_friendly="Internal Link or" />
+                <!-- <internal_link name="internal_nav_link" name_friendly="Internal Link or" /> -->
                 <!-- <external_link name="external_nav_link" name_friendly="External Link" /> -->
                 <one_to_one name="parent_link" name_friendly="Parent Link" relationship="nav_links" relationship_field="name" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
