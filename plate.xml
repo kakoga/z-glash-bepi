@@ -120,18 +120,23 @@
                 <text name="name" name_friendly="Name" required="1" list="1" />
                 <internal_link name="internal_nav_link" name_friendly="Internal Nav Link" list="1" />
                 <text name="external_link" name_friendly="External Link" list="1" />
+                <one_to_one name="parent_link" name_friendly="Parent Link" relationship="nav_links" relationship_field="name" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
                 <item link_title="" path_part="">
-                  <name><![CDATA[Home]]></name>
+                  <name><![CDATA[About]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
                   <external_link><![CDATA[test]]></external_link>
+                  <parent_link><![CDATA[]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[About]]></name>
                   <internal_nav_link><![CDATA[501]]></internal_nav_link>
                   <external_link><![CDATA[test]]></external_link>
+                  <parent_link><![CDATA[]]></parent_link>
+                  <sort_order><![CDATA[2]]></sort_order>
                 </item>
             </items>
           </dataset>
