@@ -125,53 +125,53 @@
             </fields>
             <items>
                 <item link_title="" path_part="">
-                  <name><![CDATA[Homep]]></name>
+                  <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[1]]></sort_order>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[About]]></name>
                   <internal_nav_link><![CDATA[501]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[2]]></sort_order>
+                  <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[Testimonials]]></name>
                   <internal_nav_link><![CDATA[503]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[3]]></sort_order>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[Social Media]]></name>
                   <internal_nav_link><![CDATA[505]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[4]]></sort_order>
+                  <sort_order><![CDATA[4]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[Services]]></name>
                   <internal_nav_link><![CDATA[507]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[5]]></sort_order>
+                  <sort_order><![CDATA[5]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[Contact Us]]></name>
                   <internal_nav_link><![CDATA[513]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[6]]></sort_order>
+                  <sort_order><![CDATA[6]]></sort_order>
                 </item>
                 <item link_title="" path_part="">
                   <name><![CDATA[Book Now]]></name>
                   <internal_nav_link><![CDATA[515]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
                   <parent_page><![CDATA[]]></parent_page>
-                    <sort_order><![CDATA[7]]></sort_order>
+                  <sort_order><![CDATA[7]]></sort_order>
                 </item>
             </items>
           </dataset>
