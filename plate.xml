@@ -126,6 +126,7 @@
             <items>
                 <item link_title="" path_part="">
                   <name><![CDATA[Home]]></name>
+                  <internal_nav_link><![CDATA[517]]></internal_nav_link>
                 </item>
             </items>
           </dataset>
