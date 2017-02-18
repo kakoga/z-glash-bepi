@@ -128,7 +128,7 @@
                   <name><![CDATA[Home]]></name>
                   <internal_nav_link><![CDATA[517]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
-                  <dropdown_item_of><![CDATA[501]]></dropdown_item_of>
+                  <dropdown_item_of><![CDATA[0]]></dropdown_item_of>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
             </items>
