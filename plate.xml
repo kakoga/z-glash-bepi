@@ -315,10 +315,11 @@
             <items>
               <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                   <title><![CDATA[Garnet Lash Studio]]></title>
-                  <studio_name><![CDATA[]]></studio_name>
-                  <street_address><![CDATA[2053 Garnet Ave,]]></street_address>
+                  <location_name><![CDATA[]]></location_name>
+                  <address><![CDATA[2053 Garnet Ave,]]></address>
                   <city><![CDATA[San Diego]]></city>
                   <state><![CDATA[CA]]></state>
+                  <zip><![CDATA[92109]]></zip>
                   <phone><![CDATA[(619) 339-4529]]></phone>
                   <email><![CDATA[info@garnetlash.com]]></email>
                   <map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.652031452677!2d-117.23445798481734!3d32.8014845809646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc01c80a23db85%3A0x84854ad1421412d9!2sGarnet+Lash+Extensions+Studio!5e0!3m2!1sen!2sus!4v1487488586997" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></map_embed>
