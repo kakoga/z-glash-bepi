@@ -7,11 +7,8 @@
 
 		<div class="col-2/3">
 			<div class="map-wrap">
-				{{if {thispage.link_to_map} }}
-				<iframe class="z-responsive-width" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-				src="{{thispage.link_to_map}}&sensor=false&maptype=terrain&output=embed"></iframe>
-				{{else}}
-				<img class="z-responsive-width" src="{{thispage.backup_photo.getImage()}}" alt="{{clippings.site_name}} location photo" />
+				{{if {thispage.map_embed} }}
+				{{ page.map_embed_raw }}
 				{{end-if}}
 			</div>
 		</div>(** end of .col-2/3 **)
