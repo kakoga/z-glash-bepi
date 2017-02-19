@@ -1,3 +1,12 @@
+{{each service-category as sc limit 6 }} {{ $sccount = {index} }} {{ end-each }}
+{{each service-category as sc where find_in_set( sc.zid, '{page.services_used}' ) limit 6 }}{{ $asccount = {index} }}{{ end-each }}
+{{ if {$sccount} > 5 }}
+{{ $colwid = 2 }}
+{{ else if {$sccount} == 3 }}
+{{ $colwid = 4 }}
+{{ else }}
+{{ $colwid = 3 }}
+{{ end-if }}
 <!-- Clients Aside -->
 <aside class="clients">
     <div class="container">
@@ -12,11 +21,11 @@
             </div>
         </div>
         <div class="row">
-            
             {{ if {page.services_used} }}
-            {{each service-category as sc where find_in_set( sc.zid, '{page.services_used}' ) limit 4}}
+            <div class="col-md-{{ eval(6-{$asccount}) }}" ></div>
+            {{each service-category as sc where find_in_set( sc.zid, '{page.services_used}' ) limit 6 }}
             
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-2 col-sm-6">
                 <a target="_blank" href="{{sc.getUrl()}}">
                     <img src="{{sc.main_image.getImage()}}" class="img-responsive img-centered" alt="{{sc.name}}">
                     <h4 class="list-inline quicklinks"><center>{{sc.name}}</center></h4>
@@ -24,9 +33,14 @@
             </div>
             {{end-each}}
             {{ else if {page.parent_zid} != 507 }}
+            {{ if {$sccount} == 5 }}
+            <div class="col-md-1" ></div>
+            {{ else if {$sccount} == 2 }}
+            <div class="col-md-3" ></div>
+            {{ end-if }}
             {{each service-category as sc limit 4}}
             
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-{{ $colwid }} col-sm-6">
                 <a target="_blank" href="{{sc.getUrl()}}">
                     <img src="{{sc.main_image.getImage()}}" class="img-responsive img-centered" alt="{{sc.name}}">
                     <h4 class="list-inline quicklinks"><center>{{sc.name}}</center></h4>
