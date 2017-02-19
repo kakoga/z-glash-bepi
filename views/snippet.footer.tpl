@@ -24,12 +24,12 @@
             </div>
             {{end-each}}
             {{ else if {page.parent_zid} != 507 }}
-            {{each featured_in as featured limit 4}}
+            {{each service-category as sc limit 4}}
             
             <div class="col-md-3 col-sm-6">
-                <a target="_blank" href="{{featured.url}}">
-                    <img src="{{featured.image.getImage()}}" class="img-responsive img-centered" alt="{{featured.name}}">
-                    <h4 class="list-inline quicklinks"><center>{{featured.name}} {{featured.set_zid }}</center></h4>
+                <a target="_blank" href="{{sc.getUrl()}}">
+                    <img src="{{sc.main_image.getImage()}}" class="img-responsive img-centered" alt="{{sc.name}}">
+                    <h4 class="list-inline quicklinks"><center>{{sc.name}}</center></h4>
                 </a>
             </div>
             {{end-each}}

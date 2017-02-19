@@ -211,6 +211,7 @@
                   <text name="hero_button_text" name_friendly="Hero Button Text" required="1" />
                   <images name="hero_image" name_friendly="Hero Image (Default image if feature article has no image)" limit="1" />
                   <text name="social_section_title" name_friendly="Social Section Title" required="1" />
+                <textarea name="social_feed_embed" name_friendly="Social Feed Embed" />
                   <text name="social_section_button_text" name_friendly="Social Section Button Text" required="1" />
                   <text name="timeline_title" name_friendly="Timeline Title" required="1" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" required="1" />
@@ -226,6 +227,7 @@
                       <hero_button_text><![CDATA[Book Now]]></hero_button_text>
                       <hero_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-2.jpeg]]></hero_image>
                       <social_section_title><![CDATA[Social Feed Title]]></social_section_title>
+                      <bubble_blurb><![CDATA[<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ac000d8cd2f05b19ac23d0059606c661.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>]]></bubble_blurb>
                       <social_section_button_text><![CDATA[See More Posts]]></social_section_button_text>
                       <timeline_title><![CDATA[Who Are Lashes For?]]></timeline_title>
                       <timeline_subtitle><![CDATA[Everyone, really! Check these out to see where you fit in.]]></timeline_subtitle>
@@ -496,7 +498,7 @@
               <item link_title="Social Media" path_part="social-media">
                 <title><![CDATA[Social Media Page]]></title>
                 <content><![CDATA[<p>Highlight customers using your services who share about it on social media here with an instagram feed! Make an introduction here and embed your feed below.</p>]]></content>
-                <embed_code><![CDATA[<iframe src="http://instaembedder.com/gallery-v2.php?width=200&cols=7&rows=1&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=transparent&cid=2805&" frameborder="0" width="100%" height="255" ></iframe>]]></embed_code>
+                <embed_code><![CDATA[<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d2db2513c86653a9af6a890d04a3eaaa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>]]></embed_code>
               </item>
             </items>
           </templateset>
