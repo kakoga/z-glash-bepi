@@ -18,7 +18,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" id="nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
-                {{ each nav_links as nl where nl.parent_link = 0 sort by nl.sort_order }}
+                {{ each nav_links as nl sort by nl.sort_order }}
+                {{ if {nl.parent_link} == '' }}
                 {{ $subnav = 0 }}
                 {{ $name = {nl.name} }}
                 {{ $id = {nl.internal_nav_link} }}
@@ -38,6 +39,7 @@
                 </li>
                 {{ else }}
                 <li class=""><a class="{{ $name }} dropdown-toggle" href="{{ truepath({$id}) }}" title="{{ $name }}" itemprop="url"><span itemprop="name">{{ $name }}</span></a></li>
+                {{ end-if }}
                 {{ end-if }}
                 {{ end-each }}
             </ul>

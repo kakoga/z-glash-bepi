@@ -434,16 +434,19 @@
                 <item link_title="Microblading" path_part="microblading" parent="services">
                     <name><![CDATA[Microblading]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></main_image>
+                    <description><![CDATA[<p>Microblading is a semi-permanent makeup technique where pigment is used to create the illusion of fine hairs, filling and shaping brows to your exact specifications. Results are stunning and last up to three years!</p>]]></description>
                     <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item link_title="Waxing" path_part="waxing" parent="services">
                     <name><![CDATA[Waxing]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></main_image>
+                    <description><![CDATA[<p>I offer an array of waxing specialties. I use a certified mixture of hard and soft wax to maximize speed and hair removal while minimizing pain.</p>]]></description>
                     <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item link_title="Facials" path_part="facials" parent="services">
                     <name><![CDATA[Facials]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></main_image>
+                    <description><![CDATA[<p>We wear our skin every day, so we should take extra special care of it! All of my facials are done with Rhonda Allison products as this is a top-of-the-line skincare line with products I truly believe make a lasting difference on client's’ skin.</p>]]></description>
                     <sort_order><![CDATA[4]]></sort_order>
                 </item>
             </items>
