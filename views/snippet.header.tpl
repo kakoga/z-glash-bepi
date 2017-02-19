@@ -27,11 +27,11 @@
                 {{ $subindex = {index} }}
                 {{ $subnav = 1 }}
                 {{ if {$subindex} == 1 }}
-                <li class=" dropdown"><a class="{{ $name }} dropdown-toggle" href="{{ truepath({$id}) }}" title="{{ $name }}" itemprop="url"><span itemprop="name">{{ $name }}</span><b class="caret"></b></a>
+                <li class=" dropdown"><a class="{{ $name }} dropdown-toggle" href="{{ truepath({$id}) }}" title="{{ $name }}" itemprop="url"><span itemprop="name">{{ $name }}</span><b class="caret hide-on-sm"></b></a>
                     <ul class="{{ $name }} dropdown-menu" id="" itemscope="">
-                        <li class=""><a class="{{ subnl.name }} dropdown-toggle" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
+                        <li class=""><a class="{{ subnl.name }} dropdown-toggle hide-on-sm" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
                         {{ else }}
-                        <li class=""><a class="{{ subnl.name }} dropdown-toggle" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
+                        <li class=""><a class="{{ subnl.name }} dropdown-toggle hide-on-sm" href="{{ truepath({subnl.internal_nav_link}) }}" title="{{ subnl.name }}" itemprop="url"><span itemprop="name">{{ subnl.name }}</span></a></li>
                         {{ end-if }}
                         {{ end-each }}
                         {{ if {$subnav} == 1 }}

@@ -25,8 +25,8 @@
             <div class="col-md-{{ eval(6-{$asccount}) }}" ></div>
             {{each service-category as sc where find_in_set( sc.zid, '{page.services_used}' ) limit 6 }}
             
-            <div class="col-md-2 col-sm-6">
-                <a target="_blank" href="{{sc.getUrl()}}">
+            <div class="col-md-2 col-xs-6">
+                <a href="{{sc.getUrl()}}">
                     <img src="{{sc.main_image.getImage()}}" class="img-responsive img-centered" alt="{{sc.name}}">
                     <h4 class="list-inline quicklinks"><center>{{sc.name}}</center></h4>
                 </a>
@@ -40,8 +40,8 @@
             {{ end-if }}
             {{each service-category as sc limit 4}}
             
-            <div class="col-md-{{ $colwid }} col-sm-6">
-                <a target="_blank" href="{{sc.getUrl()}}">
+            <div class="col-md-{{ $colwid }} col-xs-6">
+                <a href="{{sc.getUrl()}}">
                     <img src="{{sc.main_image.getImage()}}" class="img-responsive img-centered" alt="{{sc.name}}">
                     <h4 class="list-inline quicklinks"><center>{{sc.name}}</center></h4>
                 </a>
