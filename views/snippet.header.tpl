@@ -14,16 +14,16 @@
             <a class="navbar-brand page-scroll" href="/">{{clippings.site_name}}</a>
             {{end-if}}
         </div>
-        
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" id="nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
                 {{ each nav_links as nl sort by nl.sort_order }}
-                {{ if {nl.parent_link} == '' }}
+                {{ if {nl.parent_link} == '' || {nl.parent_link} == 517 }}
                 {{ $subnav = 0 }}
                 {{ $name = {nl.name} }}
                 {{ $id = {nl.internal_nav_link} }}
-                {{ each nav_links as subnl where subnl.parent_link = {$id} sort by subnl.sort_order }}
+                {{ each nav_links as subnl where subnl.parent_link = {$id} and parent_link != 517 sort by subnl.sort_order }}
                 {{ $subindex = {index} }}
                 {{ $subnav = 1 }}
                 {{ if {$subindex} == 1 }}
@@ -48,4 +48,3 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-    
