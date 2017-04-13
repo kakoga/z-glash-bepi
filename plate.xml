@@ -120,16 +120,86 @@
                 <text name="name" name_friendly="Name" required="1" list="1" />
                 <internal_link name="internal_nav_link" name_friendly="Internal Nav Link" list="1" />
                 <text name="external_link" name_friendly="External Link" list="1" />
-                <one_to_one name="parent_link" name_friendly="Parent Link" relationship="nav_links" relationship_field="name" list="1"/>
+                <internal_link name="parent_link" name_friendly="Parent Link" list="1"/>
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
                 <item link_title="" path_part="">
-                  <name><![CDATA[Home]]></name>
-                  <internal_nav_link><![CDATA[]]></internal_nav_link>
+                  <name><![CDATA[Facials]]></name>
+                  <internal_nav_link><![CDATA[559]]></internal_nav_link>
                   <external_link><![CDATA[]]></external_link>
-                  <parent_link><![CDATA[]]></parent_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Waxing]]></name>
+                  <internal_nav_link><![CDATA[558]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Microblading]]></name>
+                  <internal_nav_link><![CDATA[557]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Lash Extensions]]></name>
+                  <internal_nav_link><![CDATA[556]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[507]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Home]]></name>
+                  <internal_nav_link><![CDATA[517]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[About]]></name>
+                  <internal_nav_link><![CDATA[501]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Testimonials]]></name>
+                  <internal_nav_link><![CDATA[503]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Social Media]]></name>
+                  <internal_nav_link><![CDATA[505]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[4]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Services]]></name>
+                  <internal_nav_link><![CDATA[507]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
                   <sort_order><![CDATA[5]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Contact Us]]></name>
+                  <internal_nav_link><![CDATA[513]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[6]]></sort_order>
+                </item>
+                <item link_title="" path_part="">
+                  <name><![CDATA[Book Now]]></name>
+                  <internal_nav_link><![CDATA[515]]></internal_nav_link>
+                  <external_link><![CDATA[]]></external_link>
+                  <parent_link><![CDATA[0]]></parent_link>
+                  <sort_order><![CDATA[7]]></sort_order>
                 </item>
             </items>
           </dataset>
@@ -141,6 +211,7 @@
                   <text name="hero_button_text" name_friendly="Hero Button Text" required="1" />
                   <images name="hero_image" name_friendly="Hero Image (Default image if feature article has no image)" limit="1" />
                   <text name="social_section_title" name_friendly="Social Section Title" required="1" />
+                  <textarea name="social_feed_embed" name_friendly="Social Feed Embed" />
                   <text name="social_section_button_text" name_friendly="Social Section Button Text" required="1" />
                   <text name="timeline_title" name_friendly="Timeline Title" required="1" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" required="1" />
@@ -156,6 +227,7 @@
                       <hero_button_text><![CDATA[Book Now]]></hero_button_text>
                       <hero_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-2.jpeg]]></hero_image>
                       <social_section_title><![CDATA[Social Feed Title]]></social_section_title>
+                      <social_feed_embed><![CDATA[<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ac000d8cd2f05b19ac23d0059606c661.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>]]></social_feed_embed>
                       <social_section_button_text><![CDATA[See More Posts]]></social_section_button_text>
                       <timeline_title><![CDATA[Who Are Lashes For?]]></timeline_title>
                       <timeline_subtitle><![CDATA[Everyone, really! Check these out to see where you fit in.]]></timeline_subtitle>
@@ -236,23 +308,22 @@
               <text name="state" name_friendly="State" />
               <text name="zip" name_friendly="Zip Code" />
               <text name="phone" name_friendly="Phone" />
-              <text name="fax" name_friendly="Fax Number" />
               <text name="email" name_friendly="Email" />
-              <textarea name="link_to_map" name_friendly="Link to Google Map Page" />
+              <textarea name="map_embed" name_friendly="Map Embed" />
               <images name="backup_photo" name_friendly="Image (will only show if there is not a Google Maps Embed link)" />
             </fields>
             <items>
               <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
-                  <title><![CDATA[]]></title>
-                  <studio_name><![CDATA[]]></studio_name>
-                  <street_address><![CDATA[]]></street_address>
-                  <city><![CDATA[]]></city>
-                  <state><![CDATA[]]></state>
-                  <phone><![CDATA[]]></phone>
-                  <fax><![CDATA[]]></fax>
-                  <email><![CDATA[]]></email>
-                  <google_map_link><![CDATA[]]></google_map_link>
-                  <image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></image>
+                  <title><![CDATA[Garnet Lash Studio]]></title>
+                  <location_name><![CDATA[]]></location_name>
+                  <address><![CDATA[2053 Garnet Ave,]]></address>
+                  <city><![CDATA[San Diego]]></city>
+                  <state><![CDATA[CA]]></state>
+                  <zip><![CDATA[92109]]></zip>
+                  <phone><![CDATA[(619) 339-4529]]></phone>
+                  <email><![CDATA[info@garnetlash.com]]></email>
+                  <map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.652031452677!2d-117.23445798481734!3d32.8014845809646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc01c80a23db85%3A0x84854ad1421412d9!2sGarnet+Lash+Extensions+Studio!5e0!3m2!1sen!2sus!4v1487488586997" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></map_embed>
+                  <backup_photo><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Background-1.jpeg]]></backup_photo>
               </item>
             </items>
           </templateset>
@@ -350,27 +421,32 @@
             <fields>
                 <text name="name" name_friendly="Name" list="1" />
                 <images name="main_image" name_friendly="Main Image" list="1" />
+                <wysiwyg_basic name="description" name_friendly="Description" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
                 <item link_title="Lash Extensions" path_part="lash-extensions" parent="services">
                     <name><![CDATA[Lash Extensions]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/eyelashes.png]]></main_image>
+                    <description><![CDATA[<p>Eyelash extensions are the perfect way to add some glamour to your life 24/7. By adhering one eyelash extension to every natural lash, I’m able to create a completely custom look for every client that is maintainable for the long-term.</p>]]></description>
                     <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="Microblading" path_part="microblading" parent="services">
                     <name><![CDATA[Microblading]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/microbladed-brows.png]]></main_image>
+                    <description><![CDATA[<p>Microblading is a semi-permanent makeup technique where pigment is used to create the illusion of fine hairs, filling and shaping brows to your exact specifications. Results are stunning and last up to three years!</p>]]></description>
                     <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item link_title="Waxing" path_part="waxing" parent="services">
                     <name><![CDATA[Waxing]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/wax.png]]></main_image>
+                    <description><![CDATA[<p>I offer an array of waxing specialties. I use a certified mixture of hard and soft wax to maximize speed and hair removal while minimizing pain.</p>]]></description>
                     <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item link_title="Facials" path_part="facials" parent="services">
                     <name><![CDATA[Facials]]></name>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/face-mask.png]]></main_image>
+                    <description><![CDATA[<p>We wear our skin every day, so we should take extra special care of it! All of my facials are done with Rhonda Allison products as this is a top-of-the-line skincare line with products I truly believe make a lasting difference on client's’ skin.</p>]]></description>
                     <sort_order><![CDATA[4]]></sort_order>
                 </item>
             </items>
@@ -381,7 +457,7 @@
                 <text name="name" name_friendly="Name" list="1" />
                 <wysiwyg_basic name="description" name_friendly="Description" />
                 <wysiwyg_basic name="specs" name_friendly="Specs (optional)" />
-                <currency name="price" name_friendly="Price" list="1" />
+                <text name="price" name_friendly="Price" list="1" />
                 <images name="main_image" name_friendly="Main Image" list="1" />
                 <images name="additional_images" name_friendly="Additional Images" />
                 <link name="where_to_buy_link" name_friendly="Book Now" />
@@ -393,12 +469,89 @@
                     <name><![CDATA[Full Set of Classic Lash Extensions]]></name>
                     <description><![CDATA[<p>Classic eyelash extensions are when one extension is adhered to every single eyelash. A full set is a 2 hour long appointment wherein I make sure every lash has an extension!&nbsp;</p>]]></description>
                     <specs><![CDATA[]]></specs>
-                    <price><![CDATA[380]]></price>
+                    <price><![CDATA[$380]]></price>
                     <main_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/Lash-Collage-1.jpg]]></main_image>
                     <additional_images><![CDATA[]]></additional_images>
                     <where_to_buy_link><![CDATA[]]></where_to_buy_link>
-                    <product_category><![CDATA[]]></product_category>
+                    <product_category><![CDATA[556]]></product_category>
                     <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Lash Refresh" path_part="lash-refresh" parent="services">
+                    <name><![CDATA[Lash Refresh]]></name>
+                    <description><![CDATA[<p>This isn’t just a typical ‘fill’ where I fill in lashes that have grown out, but I also preemptively replace lashes I anticipate to fall soon, leaving you with a gorgeous full look after every appointment. </p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$80]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/16583203_1435123783453297_8827209364482818048_n.jpg]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[556]]></product_category>
+                    <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item link_title="First Timers" path_part="first-timers" parent="services">
+                    <name><![CDATA[First Timers]]></name>
+                    <description><![CDATA[<p>Microblading is a procedure available to anyone looking for a semi-permanent solution to fill in gaps, sparse brows, or simply have fuller, more defined brows. However, unlike traditional cosmetic tattooing, it is less invasive and is semi-permanent.  Amanda works with each client to map out the desired results, matches color to perfection, and then applies each hairline stroke one by one. The result? Gorgeous brows, every time.</p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$650]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14547743_702711093238665_2216216155666776064_n.jpg?ig_cache_key=MTM5MDA4MzI4MjAzNzA2ODUyMg%3D%3D.2]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[557]]></product_category>
+                    <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Repairs from Other Salons" path_part="microblading-repairs" parent="services">
+                    <name><![CDATA[Repairs from Other Salons]]></name>
+                    <description><![CDATA[<p>Sometimes other professionals are unable to create your exact desired look. If you’d like a consultation to see if reparation or removal is possible, please book an appointment at your earliest convenience.</p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[Quote Provided at Appointment]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15538581_1814960302095415_6778757487551053824_n.jpg?ig_cache_key=MTQxMTE0OTk2NTgxMTU5MTQyNA%3D%3D.2]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[557]]></product_category>
+                    <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item link_title="Brow Design" path_part="brow-design" parent="services">
+                    <name><![CDATA[Brow Design]]></name>
+                    <description><![CDATA[<p>Whether you’re searching for eye-opening arches or a little extra lift in your overall look, the results from this service will leave you looking polished, pretty and put-together.</p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$25]]></price>
+                    <main_image><![CDATA[http://xonecole.com/wp-content/uploads/2016/04/browwaxappt_main.jpg]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[558]]></product_category>
+                    <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Underarms" path_part="underarms" parent="services">
+                    <name><![CDATA[Underarms]]></name>
+                    <description><![CDATA[<p>This procedure lasts 15 minutes and will leave your underarms soft and hair free for up to 3 weeks.</p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$35]]></price>
+                    <main_image><![CDATA[http://sineadperez.com/files/2014/11/underarm.jpg]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[558]]></product_category>
+                    <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item link_title="Signature Facial" path_part="signature-facial" parent="services">
+                    <name><![CDATA[Signature Facial]]></name>
+                    <description><![CDATA[<p>This facial focuses on infusing the skin with actives that will stimulate, repair and rejuvenate skin tissue. Actives will firm and tone communicate to cells to produce more collagen, giving skin a luminous glow and buoyant, younger-looking appearance. </p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$75]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11349299_1721118108157432_2119805562_n.jpg]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[559]]></product_category>
+                    <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Oatmeal Mask" path_part="oatmeal-mask" parent="services">
+                    <name><![CDATA[Oatmeal Mask]]></name>
+                    <description><![CDATA[<p>Oatmeal is suitable for all skin types, and even for the most sensitive skin because of its anti- inflammatory properties. It soothes irritation and treat inflammations, so it’s safe for acne-prone clients. </p>]]></description>
+                    <specs><![CDATA[]]></specs>
+                    <price><![CDATA[$80]]></price>
+                    <main_image><![CDATA[https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/14591971_1660343154257414_9160344332383813632_n.jpg]]></main_image>
+                    <additional_images><![CDATA[]]></additional_images>
+                    <where_to_buy_link><![CDATA[]]></where_to_buy_link>
+                    <product_category><![CDATA[559]]></product_category>
+                    <sort_order><![CDATA[2]]></sort_order>
                 </item>
             </items>
           </pageset>
@@ -413,7 +566,7 @@
               <item link_title="Social Media" path_part="social-media">
                 <title><![CDATA[Social Media Page]]></title>
                 <content><![CDATA[<p>Highlight customers using your services who share about it on social media here with an instagram feed! Make an introduction here and embed your feed below.</p>]]></content>
-                <embed_code><![CDATA[<iframe src="http://instaembedder.com/gallery-v2.php?width=200&cols=7&rows=1&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=transparent&cid=2805&" frameborder="0" width="100%" height="255" ></iframe>]]></embed_code>
+                <embed_code><![CDATA[<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/d2db2513c86653a9af6a890d04a3eaaa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>]]></embed_code>
               </item>
             </items>
           </templateset>
@@ -444,7 +597,7 @@
               <wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
               <text name="location" name_friendly="Location" />
               <sort name="sort" name_friendly="Sort Order" list="1"/>
-              <!-- <one_to_one name="favorite_product" name_friendly="Favorite Product" /> -->
+              <one_to_many name="services_used" name_friendly="Services Used" relationship="service-category" relationship_field="name" />
             </fields>
             <items>
               <item link_title="Rachelle Duckworth" path_part="rachelle-duckworth-master-lash-artist" parent="testimonials">
@@ -460,7 +613,7 @@
                 <quote><![CDATA[]]></quote>
                 <location><![CDATA[San Diego, CA]]></location>
                 <sort><![CDATA[1]]></sort>
-                <!-- <favorite_product><![CDATA[]]></favorite_product> -->
+                <services_used><![CDATA[0]]></services_used>
               </item>
               <item link_title="Rachel Doty" path_part="rachel-doty-expert-lash-artist" parent="testimonials">
                 <name><![CDATA[Rachel Doty, Expert Lash Artist]]></name>

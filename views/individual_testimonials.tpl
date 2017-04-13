@@ -8,11 +8,8 @@
 			</div>
 			<h1 itemprop="name">Meet {{page.name}}</h1>
 			<h4 itemprop="jobTitle" class="section-subheading text-muted">{{page.title}}</h4>
-			<div class="row">
-				<div class="col-md-8">
-					<img src="{{page.image.getImage()}}" alt="photo of {{page.name}}" class="img-responsive" itemprop="image">
-				</div>
-				<div class="col-md-4">
+			<div class="content">
+				<img src="{{page.image.getImage(600)}}" alt="photo of {{page.name}}" align="left" class="img-responsive" itemprop="image">
 					
 					<div class="description" itemprop="description">{{page.description}}</div>
 					<div>{{page.misc}}</div>
@@ -26,7 +23,6 @@
 						<img src="{{product.main_image.getImage()}}" alt="{{product.name}} product image" class="img-responsive">
 					</a>
 					{{end-each}}
-				</div>
 			</div>
 			
 			
