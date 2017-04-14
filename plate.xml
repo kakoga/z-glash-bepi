@@ -119,7 +119,7 @@
             <fields>
                 <text name="name" name_friendly="Name" required="1" list="1" />
                 <internal_link name="internal_nav_link" name_friendly="Internal Nav Link" list="1" />
-                <text name="external_link" name_friendly="External Link" list="1" />
+                <link name="external_link" name_friendly="External Link" list="1" />
                 <internal_link name="parent_link" name_friendly="Parent Link (for a top-level nav item select 'Home zesty_home')" list="1"/>
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
