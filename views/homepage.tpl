@@ -57,7 +57,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="timeline">
-						{{each homepage_timeline as hptimeline sort by hptimeline.bubble_blurb}}
+						{{each homepage_timeline as hptimeline sort by hptimeline.sort_order}}
 						{{if {index} % 2 = 0}}
 						<li class="timeline-inverted">
 							{{else}}
